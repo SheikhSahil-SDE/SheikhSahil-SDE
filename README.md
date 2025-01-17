@@ -3,7 +3,6 @@
 - 🌱 I’m currently learning System Architecture
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me sheikha.sahil@gmail.com
-- 😄 Pronouns: ...
 - ⚡ Fun fact: I'm an AMBIVERT
 
 <!---
