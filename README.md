@@ -4,6 +4,8 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me sheikha.sahil@gmail.com
 - ⚡ Fun fact: I'm an AMBIVERT
+- 📲 LinkedIn : www.linkedin.com/in/sheikhsahil
+
 
 <!---
 SheikhSahil-SDE/SheikhSahil-SDE is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
