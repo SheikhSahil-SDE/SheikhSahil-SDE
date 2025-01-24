@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @SheikhSahil
-- 👀 I’m interested in DevOps
-- 🌱 I’m currently learning System Architecture
+- 👋 Hi, I’m @**SheikhSahil**
+- 👀 I’m interested in **DevOps**
+- 🌱 I’m currently learning **System Architecture**
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me sheikha.sahil@gmail.com
 - 📲 LinkedIn : www.linkedin.com/in/sheikhsahil
