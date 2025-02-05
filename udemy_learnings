@@ -5,4 +5,9 @@ The ultimate DevOps Bootcamp course for all your DevOps learning
 
 
 Section 5 - GIT Introduction
-  GIT - Distributed Version Control System (Content Tracker)
+ * GIT - Distributed Version Control System (Content Tracker)
+ * GIT - Local & Remote Repository
+ * Local Repository
+    |  |  ├── 1. Working Area
+    |  ├────  2. Staging Area
+    |──────── 3.  Committed Files 
