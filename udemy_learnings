@@ -18,3 +18,5 @@ Section 5 - GIT Introduction
           - sudo apt-get install git-man
           - git help init 
           - git init --bare (Create a bare repository. If GIT_DIR environment is not set, it is set to the current working directory.)
+
+* Initialize a GIT Repository
