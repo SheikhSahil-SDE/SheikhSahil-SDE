@@ -19,4 +19,6 @@ Section 5 - GIT Introduction
           - git help init 
           - git init --bare (Create a bare repository. If GIT_DIR environment is not set, it is set to the current working directory.)
 
-* Initialize a GIT Repository
+* Initialize a GIT Repository - git init (To initialize the Git in the Git repository in C:/Users/UzumakiN/.git/)
+                              - touch (command to create file)
+                              - echo "Your content to put in the file" >> name.txt
