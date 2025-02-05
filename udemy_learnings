@@ -10,7 +10,7 @@ Section 5 - GIT Introduction
  * Local Repository
     |  |  ├── 1. Working Area
     |  ├────  2. Staging Area
-    |──────── 3.  Committed Files 
+    |──────── 3. Committed Files 
 
 ** GIT LAB - Command cat /etc/*release* and to identify the name of the environment
           - Command $ sudo apt install git-all (For Debian-based OS)
@@ -19,6 +19,12 @@ Section 5 - GIT Introduction
           - git help init 
           - git init --bare (Create a bare repository. If GIT_DIR environment is not set, it is set to the current working directory.)
 
-* Initialize a GIT Repository - git init (To initialize the Git in the Git repository in C:/Users/UzumakiN/.git/)
-                              - touch (command to create file)
-                              - echo "Your content to put in the file" >> name.txt
+* Initialize a GIT Repository - $git init (To initialize the Git in the Git repository in C:/Users/UzumakiN/.git/)
+                              - $ touch (command to create file)
+                              - $ echo "Your content to put in the file" >> name.txt
+                              - $ git status (To check the status of the GIT)
+                              - $ git add name.txt (To move it to the 2. stage i.e Staging Area)
+                              - $ git commit -m "Useful Message Here" (To move it to the 3. stage i.e Committed Files) /*-m stands for Message along with a small description within ""*/
+ 
+
+                              
