@@ -11,3 +11,10 @@ Section 5 - GIT Introduction
     |  |  ├── 1. Working Area
     |  ├────  2. Staging Area
     |──────── 3.  Committed Files 
+
+** GIT LAB - Command cat /etc/*release* and to identify the name of the environment
+          - Command $ sudo apt install git-all (For Debian-based OS)
+            (Refer to the GIT installation documentation here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+          - sudo apt-get install git-man
+          - git help init 
+          - git init --bare (Create a bare repository. If GIT_DIR environment is not set, it is set to the current working directory.)
