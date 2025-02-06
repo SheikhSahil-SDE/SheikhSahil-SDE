@@ -1,4 +1,4 @@
-**The ultimate DevOps Bootcamp course for all your DevOps learning**
+i**The ultimate DevOps Bootcamp course for all your DevOps learning**
                   
 
 
@@ -48,6 +48,9 @@ Section 5 - GIT Introduction
                         - $ git log --oneline # To check the commits made
   
 
- 
+ Section 7 - GIT initializing Remote Repositories
+  * Platforms to host our Remote Repositories - GitHub
+                                              - GitLab
+                                              - Bitbucket
 
                               
