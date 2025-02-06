@@ -24,7 +24,10 @@ Section 5 - GIT Introduction
                               - $ echo "Your content to put in the file" >> name.txt
                               - $ git status (To check the status of the GIT)
                               - $ git add name.txt (To move it to the 2. stage i.e Staging Area)
-                              - $ git commit -m "Useful Message Here" (To move it to the 3. stage i.e Committed Files) /*-m stands for Message along with a small description within ""*/
+                              - $ git config user.name "User_Name" (This command is used before committing the git to set the user name)    
+                              - $ git config user.email "useremail@example.com" (This command is used before committing the git to set the user email)
+                              - $ git commit -m "Useful Message Here" (To move it to the 3. stage i.e Committed Files) /*-m stands for Message along with a small description within "_" */
+
  
 
                               
