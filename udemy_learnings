@@ -34,9 +34,19 @@ Section 5 - GIT Introduction
   Section 6 - GIT Branches
     * GIT Branches - A Branch is a pointer to the last commit
                     - $ git log (To check the logs of a particular git repo)
-                    - $ git checkout -b 
-  
+                    - $ git branch # List all branches
+                    - $ git branch branch_name  # Create a new branch
+                    - $ git checkout sarah  # Switch to an existing branch
+                    - $ git checkout -b branch_name (To switch to a different branch i.e branch_name) #Create a new branch and Switch to it
+                    - $ git branch -d max # Delete a branch
 
+
+    * HEAD - It points to the Current position in the GIT Repo Start
+                                                                            {46. Lab: Branches - checkout, push branch - Pending}
+    * GIT Merge Branches
+                        - $ ls #Shows all the files in the current Git   
+                        - $ git log --oneline # To check the commits made
+  
 
  
 
