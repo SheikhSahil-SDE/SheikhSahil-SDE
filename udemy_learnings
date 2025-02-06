@@ -53,4 +53,37 @@ Section 5 - GIT Introduction
                                               - GitLab
                                               - Bitbucket
 
+  * Connecting Strings - https://..// [name].git (Example: https://github.com/kodekloudhub/stories.git)
+
+  *In local Repository - $ git remote add origin "https://..// [name].git"
+                       - $ git remote  -v                                     #Command to either fetch/push from the list of connecting strings in the local repo
+                            origin "https://..// [name].git" (fetch)
+                            origin "https://..// [name].git" (push)
+                            .
+                            .
+                            .
+                            origin "https://..// [name].git" (push)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                               
