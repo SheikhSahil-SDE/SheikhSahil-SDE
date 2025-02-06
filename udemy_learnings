@@ -55,7 +55,7 @@ Section 5 - GIT Introduction
 
   * Connecting Strings - https://..// [name].git (Example: https://github.com/kodekloudhub/stories.git)
 
-  *In local Repository - $ git remote add origin "https://..// [name].git"
+  * In local Repository - $ git remote add origin "https://..// [name].git"
                        - $ git remote  -v                                     #Command to either fetch/push from the list of connecting strings in the local repo
                             origin "https://..// [name].git" (fetch)
                             origin "https://..// [name].git" (push)
@@ -64,6 +64,7 @@ Section 5 - GIT Introduction
                             .
                             origin "https://..// [name].git" (push)
 
+  * Pushing to remote repositories - 
 
 
 
