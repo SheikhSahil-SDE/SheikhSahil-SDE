@@ -63,9 +63,18 @@ Section 5 - GIT Introduction
                                     .
                                     origin "https://..// [name].git" (push)
 
-  * Pushing to remote repositories - 
-
-
+  * Pushing to remote repositories  https://gitea.com/
+                          Creating a new repository on the command line
+                                    touch README.md
+                                    git init
+                                    git checkout -b main
+                                    git add README.md
+                                    git commit -m "first commit"
+                                    git remote add origin https://gitea.com/sarah/story-blog1.git
+                                    git push -u origin main
+                          Pushing an existing repository from the command line
+                                    git remote add origin https://gitea.com/sarah/story-blog1.git
+                                    git push -u origin main
 
 
 
