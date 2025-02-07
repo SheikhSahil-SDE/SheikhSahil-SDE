@@ -63,7 +63,7 @@ Section 5 - GIT Introduction
                                     .
                                     origin "https://..// [name].git" (push)
 
-  * Pushing to remote repositories  https://gitea.com/
+  * Pushing to remote repositories  https://gitea.com/ (A lighter version of Github.)
                           Creating a new repository on the command line
                                     touch README.md
                                     git init
@@ -76,6 +76,7 @@ Section 5 - GIT Introduction
                                     git remote add origin https://gitea.com/sarah/story-blog1.git
                                     git push -u origin main
 
+                                - $ git remote <origin> <master> /**/
 
 
 
