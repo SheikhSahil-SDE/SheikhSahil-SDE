@@ -78,11 +78,15 @@ Section 5 - GIT Introduction
 
                                 - $ git remote <origin> <master> /**/
 
-
-
-
+  * Cloning Remote Repositories - 
+  * Pull Request - 
+  * Fetching and Pulling - 
+  * GIT - Merge Conflicts - 
+  * Fork - 
 
   Section 8 - Jenkins Introduction
+  Section 9 - Prerequisites
+  Section 10 - Installing Jenkins
 
 
 
