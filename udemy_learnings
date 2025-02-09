@@ -78,7 +78,9 @@ Section 5 - GIT Introduction
 
                                 - $ git remote <origin> <master> /**/
 
-  * Cloning Remote Repositories - 
+  * Cloning Remote Repositories - $ git clone [ ssh link ] 
+                                  $ git config user.email "max@example.com" /* To tell GIT the email address*/ username
+                                  $ git config user.name "username" /* To tell GIT the username*/ 
   * Pull Request - 
   * Fetching and Pulling - 
   * GIT - Merge Conflicts - 
