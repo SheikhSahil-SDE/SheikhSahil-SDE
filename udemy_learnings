@@ -67,7 +67,7 @@ Section 5 - GIT Introduction
                           Creating a new repository on the command line
                                     touch README.md
                                     git init
-                                    git checkout -b "directory/name" /*To switch to different branch*/
+                                    git checkout -b "directory/name" /*To switch to a different branch*/
                                     git add README.md
                                     git commit -m "first commit"
                                     git remote add origin https://gitea.com/sarah/story-blog1.git
