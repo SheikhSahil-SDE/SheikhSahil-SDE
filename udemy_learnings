@@ -83,10 +83,10 @@ Section 5 - GIT Introduction
                                   $ git config user.name "username" /* To tell GIT the username*/ 
 
   * Pull Request - $ git push <BRANCH_NAME> <USER_NAME>
-                 - $ git fetch origin master /*After merging remotely, the Local system doesn't know the changes. This command updates the Local Master Branch*/
-                 - $ git merge origin/master /*After merging remotely, the Local system doesn't know the changes. This command merges the Local Master Branch*/
 
-  * Fetching and Pulling - 
+  * Fetching and Pulling - - $ git fetch origin master /*After merging remotely, the Local system doesn't know the changes. This command updates the Local Master Branch*/
+                           - $ git merge origin/master /*After merging remotely, the Local system doesn't know the changes. This command merges the Local Master Branch*/
+  
   * GIT - Merge Conflicts - 
   * Fork - 
 
