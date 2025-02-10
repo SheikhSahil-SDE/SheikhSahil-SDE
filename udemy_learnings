@@ -19,7 +19,7 @@ Section 5 - GIT Introduction
           - $ git help init 
           - $ git init --bare (Create a bare repository. If the GIT_DIR environment is not set, it is set to the current working directory.)
 
-* Initialize a GIT Repository - $git init (To initialize the Git in the Git repository in C:/Users/UzumakiN/.git/)
+* Initialize a GIT Repository - $ git init (To initialize the Git in the Git repository in C:/Users/UzumakiN/.git/)
                               - $ touch (command to create file)
                               - $ echo "Your content to put in the file" >> name.txt
                               - $ git status (To check the status of the GIT)
@@ -55,7 +55,7 @@ Section 5 - GIT Introduction
 
   * Connecting Strings - https://..// [name].git (Example: https://github.com/kodekloudhub/stories.git)
           * In local Repository - $ git remote add origin "https://..// [name].git"
-                               - $ git remote  -v                                     #Command to either fetch/push from the list of connecting strings in the local repo
+                                - $ git remote  -v                                     #Command to either fetch/push from the list of connecting strings in the local repo
                                     origin "https://..// [name].git" (fetch)
                                     origin "https://..// [name].git" (push)
                                     .
@@ -67,7 +67,7 @@ Section 5 - GIT Introduction
                           Creating a new repository on the command line
                                     touch README.md
                                     git init
-                                    git checkout -b main
+                                    git checkout -b "directory/name" /*To switch to different branch*/
                                     git add README.md
                                     git commit -m "first commit"
                                     git remote add origin https://gitea.com/sarah/story-blog1.git
@@ -81,7 +81,11 @@ Section 5 - GIT Introduction
   * Cloning Remote Repositories - $ git clone [ ssh link ] 
                                   $ git config user.email "max@example.com" /* To tell GIT the email address*/ username
                                   $ git config user.name "username" /* To tell GIT the username*/ 
-  * Pull Request - 
+
+  * Pull Request - $ git push <BRANCH_NAME> <USER_NAME>
+                 - $ git fetch origin master /*After merging remotely, the Local system doesn't know the changes. This command updates the Local Master Branch*/
+                 - $ git merge origin/master /*After merging remotely, the Local system doesn't know the changes. This command merges the Local Master Branch*/
+
   * Fetching and Pulling - 
   * GIT - Merge Conflicts - 
   * Fork - 
