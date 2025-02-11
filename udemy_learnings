@@ -99,15 +99,14 @@ Section 5 - GIT Introduction
                                   Unit Tests                          
                                   Integration Test                            
                             * Security Checks
-
-      * CD vs CD - Continous Delivery VS Continous Deployment
-                  - In Continous Delivery, after the CI process manual intervension is required to deploy the application.
-                  - On the contrary, in Continous Deployment the deployment of the application is automated.
-      * Key piece of CD (Continous Deployment)
-                - Authenticate (via AWS or Azure)
-                - Tests
-
-
+          * CD vs CD - Continous Delivery VS Continous Deployment
+                      - In Continous Delivery, after the CI process manual intervension is required to deploy the application.
+                      - On the contrary, in Continous Deployment the deployment of the application is automated.
+          * Key piece of CD (Continous Deployment)
+                    - Authenticate (via AWS or Azure)
+                    - Tests
+    * What is Jenkins & Why? - Jenkins is Open-Source. And having 1000s of plugins for all the purposes. (Jenkins Official Website: https://www.jenkins.io/)
+    
   Section 10 - Installing Jenkins
 
 
