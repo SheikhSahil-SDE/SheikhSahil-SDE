@@ -86,15 +86,18 @@ Section 5 - GIT Introduction
 
   * Fetching and Pulling - - $ git fetch origin master /*After merging remotely, the Local system doesn't know the changes. This command updates the Local Master Branch*/
                            - $ git merge origin/master /*After merging remotely, the Local system doesn't know the changes. This command merges the Local Master Branch*/
-  
-  * GIT - Merge Conflicts - 
-  * Fork - 
+  * GIT - Merge Conflicts
+  * Fork 
 
   Section 8 - Jenkins Introduction
-
-    
+            - $ go run main.go &     
   
   Section 9 - Prerequisites
+      * What is CI/CD - CI: Continous Integration
+                      - The Key pieces of CI
+      * CD vs CD - Continous Deployment VS Continous Delivery
+
+
   Section 10 - Installing Jenkins
 
 
