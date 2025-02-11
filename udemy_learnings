@@ -95,7 +95,17 @@ Section 5 - GIT Introduction
   Section 9 - Prerequisites
       * What is CI/CD - CI: Continous Integration
                       - The Key pieces of CI
-      * CD vs CD - Continous Deployment VS Continous Delivery
+                            * Tests                        
+                                  Unit Tests                          
+                                  Integration Test                            
+                            * Security Checks
+
+      * CD vs CD - Continous Delivery VS Continous Deployment
+                  - In Continous Delivery, after the CI process manual intervension is required to deploy the application.
+                  - On the contrary, in Continous Deployment the deployment of the application is automated.
+      * Key piece of CD (Continous Deployment)
+                - Authenticate (via AWS or Azure)
+                - Tests
 
 
   Section 10 - Installing Jenkins
