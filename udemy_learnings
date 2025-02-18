@@ -100,7 +100,7 @@ Section 5 - GIT Introduction
                                   Integration Test                            
                             * Security Checks
           * CD vs CD - Continous Delivery VS Continous Deployment
-                      - In Continous Delivery, after the CI process manual intervension is required to deploy the application.
+                      - In Continous Delivery, after the CI process manual intervention is required to deploy the application.
                       - On the contrary, in Continous Deployment the deployment of the application is automated.
           * Key piece of CD (Continous Deployment)
                     - Authenticate (via AWS or Azure)
@@ -109,7 +109,7 @@ Section 5 - GIT Introduction
     
   Section 10 - Installing Jenkins
                 Jenkin: A Automation server
-    * 
+    *    
 
 
 
