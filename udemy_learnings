@@ -1,5 +1,7 @@
 **The ultimate DevOps Bootcamp course for all your DevOps learning**
                   
+** sudo ufw disable - To disable the Firewalls
+** sudo ufw enable - To enable the Firewalls
 
 
 
