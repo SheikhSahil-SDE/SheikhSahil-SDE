@@ -137,6 +137,8 @@ Section 5 - GIT Introduction
 
                         * Using Jenkins CLI
 
+                            & su - user_name // To switch user
+
 
   Section 11 - Systems Administration with Jenkins
 
