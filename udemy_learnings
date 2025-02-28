@@ -120,6 +120,10 @@ Section 5 - GIT Introduction
                           We can run Jenkins in a container
 
                         * Installing Jenkins on a VM
+ 
+                        * Searching through Plugins
+
+                        * Jenkins CLI
 
                               $ sudo yum install epel-release -y
                               $ sudo yum install fontconfig java-17-openjdk -y
@@ -130,9 +134,6 @@ Section 5 - GIT Introduction
 
                               $ sudo systemctl start jenkins // CMD to start Jenkins service
 
-                        * Searching through Plugins
-
-                        * Jenkins CLI
 
                         * Using Jenkins CLI
 
