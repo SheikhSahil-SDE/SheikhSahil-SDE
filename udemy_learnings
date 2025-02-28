@@ -114,9 +114,13 @@ Section 5 - GIT Introduction
   Section 10 - Installing Jenkins
                 Jenkin: An Automation server
                         * Installing Jenkins on a VM
+
                         * Searching through Plugins
+
                         * Jenkins CLI
+
                         * Using Jenkins CLI
+
 
   Section 11 - Systems Administration with Jenkins
 
