@@ -4,8 +4,8 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me **sheikha.sahil@gmail.com**
 - 📲 LinkedIn : **www.linkedin.com/in/sheikhsahil**
-- 🖥️ Working @**Cloudcredits Technology Pvt. Ltd.**
-- 📚 Learning from Udemy
+- 🖥️ Working @**Zidio Development**
+- 📚 Learning from **Udemy**
 
 
 <!---
