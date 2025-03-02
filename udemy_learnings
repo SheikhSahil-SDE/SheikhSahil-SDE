@@ -131,9 +131,7 @@ Section 5 - GIT Introduction
                               $ sudo rpm --import http://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
                               $ sudo yum install jenkins -y
 
-
                               $ sudo systemctl start jenkins // CMD to start Jenkins service
-
 
                         * Using Jenkins CLI
 
