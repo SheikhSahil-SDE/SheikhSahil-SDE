@@ -138,9 +138,8 @@ Section 5 - GIT Introduction
                             & su - user_name // To switch user
 
 
-  Section 11 - Systems Administration with Jenkins
+  Section 11 - Jenkins Plugins and Integrations
 
-                        * Administering Jenkins
                         * What are plugins?
                         * Installing a Plugin
                         * Restarting Jenkins For Plugins That Require Restarts
@@ -150,8 +149,15 @@ Section 5 - GIT Introduction
 
 
 
+Section 12 - Systems Administration with Jenkins
 
-
+                        * Administering Jenkins
+                            - Backup
+                            - Restore
+                            - Monitor
+                            - Scale
+                            - Manage
+  
 
 
 
