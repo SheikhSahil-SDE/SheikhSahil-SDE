@@ -141,6 +141,9 @@ Section 5 - GIT Introduction
   Section 11 - Systems Administration with Jenkins
 
                         * Administering Jenkins
+                        * What are plugins?
+                        * Installing a Plugin
+                        * Restarting Jenkins For Plugins That Require Restarts
 
 
 
