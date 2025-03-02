@@ -165,7 +165,7 @@ Section 12 - Systems Administration with Jenkins
                                |  |
                                |  |__  Configuration files (config.xml)        // Contains all the configuration Files of Jenkins 
                                |
-                               |_____________ jobs                             // Contains all the CI/CD Pipelines
+                               |_____  jobs                             // Contains all the CI/CD Pipelines
 
 
                         * Backup Jenkins 
