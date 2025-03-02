@@ -157,9 +157,22 @@ Section 12 - Systems Administration with Jenkins
                             - Monitor
                             - Scale
                             - Manage
-  
+
+                        * Backup and Restoring Jenkins 
+                            * Which Files to Backup?
+                            
+                              $JENKINS_HOME                                    ** This file must be backed up **
+                               |  |
+                               |  |__  Configuration files (config.xml)        // Contains all the configuration Files of Jenkins 
+                               |
+                               |_____________ jobs                             // Contains all the CI/CD Pipelines
 
 
+                        * Backup Jenkins 
+                              Creating a Backup
+                                  Filesystem snapshots
+                                  Plugins for backup
+                                  Write a shell script that backs up the Jenkins controller               // Example: https://github.com/sue445/jenkins-backup-script/blob/master/jenkins-backup.sh    
 
 
 
