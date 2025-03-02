@@ -145,7 +145,8 @@ Section 5 - GIT Introduction
                         * Installing a Plugin
                         * Restarting Jenkins For Plugins That Require Restarts
 
-
+                                $ sudo systemcli restart jenkins               // cmd to restart jenkins services
+                                $ systemcli status jenkins                     // cmd to get jenkins status  
 
 
 
