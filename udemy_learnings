@@ -137,7 +137,6 @@ Section 5 - GIT Introduction
 
                             & su - user_name // To switch user
 
-
   Section 11 - Jenkins Plugins and Integrations
 
                         * What are plugins?
@@ -146,7 +145,6 @@ Section 5 - GIT Introduction
 
                                 $ sudo systemcli restart jenkins               // cmd to restart jenkins services
                                 $ systemcli status jenkins                     // cmd to get jenkins status  
-
 
 
 Section 12 - Systems Administration with Jenkins
@@ -166,7 +164,6 @@ Section 12 - Systems Administration with Jenkins
                                |  |__  Configuration files (config.xml)        // Contains all the configuration Files of Jenkins 
                                |
                                |_____  jobs                             // Contains all the CI/CD Pipelines
-
 
                         * Backup Jenkins 
                               Creating a Backup
