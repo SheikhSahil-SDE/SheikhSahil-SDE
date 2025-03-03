@@ -171,7 +171,16 @@ Section 12 - Systems Administration with Jenkins
                                   Plugins for backup
                                   Write a shell script that backs up the Jenkins controller               // Example: https://github.com/sue445/jenkins-backup-script/blob/master/jenkins-backup.sh    
 
+                        * Restore Jenkins
 
+                          $ sudo mkdir /var/lib/jenkins/jenkins_backup
+                          $ sudo chown -R jenkins /var/lib/jenkins/jenkins_backup
+
+                                 Go to Settings and enter /var/lib/jenkins/jenkins_backup as the Backup directory, tick Backup plugins archives check box and save the changes.
+                                 NOTE: In the newer version of ThinBackup plugin, the settings can be found under Manage Jenkins > System.
+
+                          Make sure to restart the Jenkins service after restoring the backup.
+                          $ service jenkins restart
 
 
 
