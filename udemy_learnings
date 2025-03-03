@@ -183,6 +183,18 @@ Section 12 - Systems Administration with Jenkins
                           $ service jenkins restart
 
 
+ Section 13 - Pipelines
+
+              * What is Jenkinsfile?
+              * Build a Jenkins file
+              * Run a Sample Pipeline
+              * Build a Multistage Pipeline
+              * Building a CI Pipeline 
+              * Building a CD Pipeline 
+              * Full Pipeline Deployment
+              
+
+
 
 
                               
