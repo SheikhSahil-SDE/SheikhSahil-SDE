@@ -199,10 +199,40 @@ Section 12 - Systems Administration with Jenkins
                 File name - Jenkinsfile
                             |  |-----> Onestage
                             |--------> MultiStage
-                
 
-              * Run a Sample Pipeline
+              * Ran a Sample Pipeline
+                
+                    pipeline {
+                        agent any
+                    
+                        stages {
+                            stage('Build') {
+                                steps {
+                                    git '' //Get some code from a GitHub repository
+                                }
+                            }
+                        }
+                    }
+        
               * Build a Multistage Pipeline
+                Example:
+                                    pipeline {
+                                        agent any
+                                    
+                                        stages {
+                                            stage('Dev') {
+                                                steps {
+                                                    git '' //Get some code from a GitHub repository
+                                                }
+                                            }
+                                            stage('UAT') {
+                                                steps {
+                                                    git '' //Get some code from a GitHub repository
+                                                }
+                                            }
+                                        }  
+                                    }
+
               * Building a CI Pipeline 
               * Building a CD Pipeline 
               * Full Pipeline Deployment
