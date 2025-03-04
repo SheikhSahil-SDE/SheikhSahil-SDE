@@ -197,6 +197,8 @@ Section 12 - Systems Administration with Jenkins
 
               * Build a Jenkins file
                 File name - Jenkinsfile
+                            |  |-----> Onestage
+                            |--------> MultiStage
                 
 
               * Run a Sample Pipeline
