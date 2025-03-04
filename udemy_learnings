@@ -234,7 +234,9 @@ Section 12 - Systems Administration with Jenkins
                                     }
 
               * Building a CI Pipeline 
+
               * Building a CD Pipeline 
+
               * Full Pipeline Deployment
               
 
