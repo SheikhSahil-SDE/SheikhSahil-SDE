@@ -186,7 +186,19 @@ Section 12 - Systems Administration with Jenkins
  Section 13 - Pipelines
 
               * What is Jenkinsfile?
+                Jenkinsfile is a text file, and it contains Instructions for the pipeline
+                Structure of Jenkinsfile
+                |  |  |  |-----> Pipeline (The task we want to achieve/accomplish)
+                |  |  |--------> Build Agent
+                |  |-----------> Stages    
+                |--------------> Steps
+
+                Multi-Stage Pipeline - A Jenkinsfile that contains multiple stages is known as Multi-Stage Pipeline
+
               * Build a Jenkins file
+                File name - Jenkinsfile
+                
+
               * Run a Sample Pipeline
               * Build a Multistage Pipeline
               * Building a CI Pipeline 
