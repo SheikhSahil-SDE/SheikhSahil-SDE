@@ -1,5 +1,6 @@
 **The ultimate DevOps Bootcamp course for all your DevOps learning**
                   
+$ cat /etc/*release* - To check the Ubuntu Version
 $ sudo ufw disable - To disable the Firewalls
 $ sudo ufw enable - To enable the Firewalls
 $ sudo apt install network-manager-openvpn-gnome -y
