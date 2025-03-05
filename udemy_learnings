@@ -234,10 +234,90 @@ Section 12 - Systems Administration with Jenkins
                                     }
 
               * Building a CI Pipeline 
+                Example:
+                          pipeline {
+                              agent any
+                              tools{
+                                  go 'go-1.17'
+                              }
+                          
+                              environment {
+                                  GO111MODULE='on'
+                              }
+                              
+                              stages {
+                                  stage('Test') {
+                                      steps{
+                                          git '' // GitHub Repository URL
+                                          sh 'go test ./...' //Shell command to run tests
+                                      }
+                                  }
+                              }
+                          }
+
 
               * Building a CD Pipeline 
+                Example:
+                        pipeline {
+                            agent any
+                            tools{
+                                go 'go-1.17'
+                            }
+                        
+                            environment {
+                                GO111MODULE='on'
+                            }
+                            
+                            stages {
+                                stage('Development') {
+                                    steps{
+                                        git '' // GitHub Repository URL
+                                        // sh 'go test ./...' //Shell command to run tests
+                                    }
+                                }
+                                stage('Building our image') {
+                                    steps {
+                                        script {
+                                            app = docker.build("go-cd-process")
+                                        }
+                                    }
+                                }
+                            }
+                        }
 
               * Full Pipeline Deployment
+                Example:
+                        pipeline {
+                            agent any
+                            tools {
+                                go 'go-1.17'
+                            }
+                        
+                            environment {
+                                GO111MODULE='on'
+                            }
+                            
+                            stages {
+                                stage('Test') {
+                                    steps {
+                                        git '' // GitHub Repository URL
+                                        sh 'go test ./...' //Shell command to run tests
+                                    }
+                                }
+                                stage('Build') {
+                                    steps {
+                                        git '' // GitHub Repository URL
+                                        sh 'go build' //Shell command to build the application
+                                    }
+                                }
+                                stage('Run') {
+                                    steps {
+                                        sh 'cd /path/to/the/file/pipeline_name && go-webapp-sample &' //By default the apps will be in /var/lib/jenkins/workspace/pipeline_name
+                                    }
+                                }
+                        
+                            }
+                        }
               
 
 
