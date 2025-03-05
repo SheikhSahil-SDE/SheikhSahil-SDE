@@ -328,8 +328,10 @@ Section 12 - Systems Administration with Jenkins
                     |--------> Run each service with its own dependencies in separate containers.
 
                     What are containers?
+                    Docker is developed in the Go language and utilizes LXC, cgroups, and the Linux kernel itself. 
+                    Since it's based on LXC, a Docker container does not include a separate operating system; instead it relies on the operating system's own functionality as provided by the underlying infrastructure.
+
                     Containers VS Virtual Machine
-                * 
-                *
-                *
-                *
+                    Container VS Image
+
+                * Getting started with Docker | Setup and Install Docker
