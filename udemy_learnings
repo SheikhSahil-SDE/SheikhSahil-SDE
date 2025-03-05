@@ -321,8 +321,15 @@ Section 12 - Systems Administration with Jenkins
               
 
   Section 13 - Docker Overview Introduction
-                *
-                *
+                * Docker Overview
+                    Why do we need Docker?
+                    What can it do?
+                    |  |-----> Containerize Applications
+                    |--------> Run each service with its own dependencies in separate containers.
+
+                    What are containers?
+                    Containers VS Virtual Machine
+                * 
                 *
                 *
                 *
