@@ -336,3 +336,41 @@ Section 12 - Systems Administration with Jenkins
                     Container VS Image
 
                 * Getting started with Docker | Setup and Install Docker //https://docs.docker.com/engine/install/ubuntu/
+
+  Section 15 - Docker Commands
+
+                * Basic Docker Commands
+                    $ docker run <services>                         // Run -Start a container    
+                    $ docker ps                                     // ps - list conatainer {CONATINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES}
+                    $ docker ps -a                                  // For all running containers
+                    $ docker stop <CONATINER_ID>/<CONATINER_NAME>   // STOP- stop container
+                    $ docker rm <CONATINER_ID>/<CONATINER_NAME>     // Rm - Remove a container permanently
+                    $ docker images                                 // images - Lists images
+                    $ docker rmi <CONTAINER_ID>/<CONATINER_NAME>    // rmi - Remove Images (Delete all dependent containers to remove image)
+                    $ docker pull <CONTAINER_ID>/<CONATINER_NAME>   // pull - to download an image
+                    $ docker exec <CONATINER_NAME> cat path/to/the/container // exec - execute a command 
+                    $ docker run kodekloud/simple-webapp            // run - attach & detach
+                    $ docker run -d kodekloud/simple-webapp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
