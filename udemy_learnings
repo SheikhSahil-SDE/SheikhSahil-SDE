@@ -352,6 +352,11 @@ Section 12 - Systems Administration with Jenkins
                     $ docker run kodekloud/simple-webapp            // run - attach & detach
                     $ docker run -d kodekloud/simple-webapp
 
+  Section 16 - Docker Run
+  Section 17 - Docker Images
+  Section 18 - Docker Engine_Storage and Networking
+  Section 19 - Docker Registery
+
 
 
 
