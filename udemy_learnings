@@ -28,7 +28,7 @@ Section 5 - GIT Introduction
                               - $ touch (command to create file)
                               - $ echo "Your content to put in the file" >> name.txt
                               - $ git status (To check the status of the GIT)
-                              - $ git add name.txt (To move it to the 2. stage i.e Staging Area)
+                              - $ git add name.txt (To move it to the 2 stage i.e, Staging Area)
                               - $ git config user.name "User_Name" (This command is used before committing the git to set the user name)    
                               - $ git config user.email "useremail@example.com" (This command is used before committing the git to set the user email)
                               - $ git commit (Without any Message) /* It will open a TEXT EDITOR, and in the TEXT EDITOR you can add Message*/
@@ -340,6 +340,7 @@ Section 12 - Systems Administration with Jenkins
   Section 15 - Docker Commands
 
                 * Basic Docker Commands
+                    $ docker version                                // Checks docker Version
                     $ docker run <services>                         // Run -Start a container    
                     $ docker ps                                     // ps - list conatainer {CONATINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES}
                     $ docker ps -a                                  // For all running containers
@@ -355,7 +356,9 @@ Section 12 - Systems Administration with Jenkins
   Section 16 - Docker Run
   Section 17 - Docker Images
   Section 18 - Docker Engine_Storage and Networking
-  Section 19 - Docker Registery
+  Section 19 - Docker Registry
+
+  Section 20 - 
 
 
 
