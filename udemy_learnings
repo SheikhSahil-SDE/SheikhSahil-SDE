@@ -349,11 +349,16 @@ Section 12 - Systems Administration with Jenkins
                     $ docker images                                 // images - Lists images
                     $ docker rmi <CONTAINER_ID>/<CONATINER_NAME>    // rmi - Remove Images (Delete all dependent containers to remove image)
                     $ docker pull <CONTAINER_ID>/<CONATINER_NAME>   // pull - to download an image
-                    $ docker exec <CONATINER_NAME> cat path/to/the/container // exec - execute a command 
+                    $ docker exec <CONATINER_NAME> cat path/to/the/container // exec - execute a command on a running container
                     $ docker run kodekloud/simple-webapp            // run - attach & detach
-                    $ docker run -d kodekloud/simple-webapp
+                    $ docker run -d <images>                        // This command runs the mentioned <image> in the background
+                    $ docker run -d <images> sleep <time_in_seconds> //runs the given image for the time mentioned after sleep
+
 
   Section 16 - Docker Run
+                $ docker run image:version                         // Run -Start a container(image) with specified version after :
+                $ docker run -i kodekloud/simple-webapp            // -i The command will run and take the input
+                $ docker run -it kodekloud/simple-webapp           // -it The command will run and interact with the Terminal
   Section 17 - Docker Images
   Section 18 - Docker Engine_Storage and Networking
   Section 19 - Docker Registry
