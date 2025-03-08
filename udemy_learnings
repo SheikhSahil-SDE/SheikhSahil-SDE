@@ -359,8 +359,11 @@ Section 12 - Systems Administration with Jenkins
                 $ docker run image:version                         // Run -Start a container(image) with specified version after :
                 $ docker run -i kodekloud/simple-webapp            // -i The command will run and take the input
                 $ docker run -it kodekloud/simple-webapp           // -it The command will run and interact with the Terminal
+
   Section 17 - Docker Images
+
   Section 18 - Docker Engine_Storage and Networking
+
   Section 19 - Docker Registry
 
   Section 20 - 
