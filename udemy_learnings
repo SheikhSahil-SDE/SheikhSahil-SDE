@@ -359,6 +359,11 @@ Section 12 - Systems Administration with Jenkins
                 $ docker run image:version                         // Run -Start a container(image) with specified version after :
                 $ docker run -i kodekloud/simple-webapp            // -i The command will run and take the input
                 $ docker run -it kodekloud/simple-webapp           // -it The command will run and interact with the Terminal
+                $ docker run -p port:port <container id>           // -p port 
+                $ docker run -v path/of/the/folder <images>        // -v Volume mapping
+                $ docker inspect <container id>                    // inspect - To inspect the container (in JSON format)
+                $ docker logs <container id>                        // Gives container logs
+
 
   Section 17 - Docker Images
 
