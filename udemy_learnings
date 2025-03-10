@@ -367,7 +367,35 @@ Section 12 - Systems Administration with Jenkins
               Advanced Docker Run Features
 
   Section 17 - Docker Images
+               * Docker Images
+                        How to create my own Image?
+                        1. OS - Ubuntu
+                        2. Update apt repo 
+                        3. Install dependencies using apt
+                        4. Install Python dependencies using pip
+                        5. Copy source code to /apt folder
+                        6. Run the web server using the "flask" command
 
+                Layered Architecture
+                        Dockerfile
+                        FROM Ubuntu                                                        Layer 1. Base Ubuntu Layer
+                        RUN apt-get update && apt-get -y install python                    Layer 2. Changes in apt packages 
+                        RUN pip install flask flask-mysql                                  Layer 3. Change in pip packages
+                        COPY . /opt/source-code                                            Layer 4. Source code
+                        ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run             Layer 5. Update Entrypoint with "flask" command
+                
+                Docker build Output 
+                Failure
+                  |---- Layer 1. Base Ubuntu Layer
+                  |---- Layer 2. Changes in apt packages 
+                  |---- Layer 3. Change in pip packages
+                  |---- Layer 4. Source code
+                  |---- Layer 5. Update Entrypoint with "flask" command
+    
+                What can we containerize?
+                We can containerize databases, development tools, operating  systems, etc. We can containerize web browsers, utility tools like curl//, applications like Spotify etc.
+
+            * Creating a new Docker Image
   Section 18 - Docker Engine_Storage and Networking
 
   Section 19 - Docker Registry
