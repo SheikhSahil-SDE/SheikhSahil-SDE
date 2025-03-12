@@ -396,6 +396,7 @@ Section 12 - Systems Administration with Jenkins
                 We can containerize databases, development tools, operating  systems, etc. We can containerize web browsers, utility tools like curl//, applications like Spotify etc.
 
             * Creating a new Docker Image
+
   Section 18 - Docker Engine_Storage and Networking
 
   Section 19 - Docker Registry
