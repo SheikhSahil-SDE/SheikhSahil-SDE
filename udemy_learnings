@@ -396,6 +396,12 @@ Section 12 - Systems Administration with Jenkins
                 We can containerize databases, development tools, operating  systems, etc. We can containerize web browsers, utility tools like curl//, applications like Spotify etc.
 
             * Creating a new Docker Image
+            * Environment Variables
+              $ docker inspect <CONTAINER ID> | grep -A 10 Env
+              $ docker run -p 38282:8080 --name blue-app -e APP_COLOR=blue -d kodekloud/simple-webapp
+              $ docker exec -it blue-app env
+              $ docker run -e MYSQL_ROOT_PASSWORD=db_pass123 --name mysql-db MySQL                         // Used MYSQL_ROOT_PASSWORD (per Docker Hub) to secure it with db_pass123. Container’s live and locked!
+              
 
   Section 18 - Docker Engine_Storage and Networking
 
