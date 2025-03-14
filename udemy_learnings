@@ -401,7 +401,15 @@ Section 12 - Systems Administration with Jenkins
               $ docker run -p 38282:8080 --name blue-app -e APP_COLOR=blue -d kodekloud/simple-webapp
               $ docker exec -it blue-app env
               $ docker run -e MYSQL_ROOT_PASSWORD=db_pass123 --name mysql-db MySQL                         // Used MYSQL_ROOT_PASSWORD (per Docker Hub) to secure it with db_pass123. Container’s live and locked!
-              
+
+            * Command vs Entrypoint
+            
+              $ cat Dockerfile-mysql | grep ENTRYPOINT  
+              $ cat Dockerfile-wordpress | grep CMD 
+              $ cat Dockerfile-wordpress | grep ENTRYPOINT
+              $ cat Dockerfile-wordpress | grep ENTRYPOINT and $ cat Dockerfile-wordpress | grep CMD
+              $ cat Dockerfile-ubuntu | grep CMD 
+
 
   Section 18 - Docker Engine_Storage and Networking
 
