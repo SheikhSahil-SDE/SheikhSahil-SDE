@@ -428,9 +428,21 @@ Section 12 - Systems Administration with Jenkins
 
 
   Section 19 - Docker Registry
+              * Public Registry
+                hub.docker.com
+                docker.io
+                gcr.io
+              * Private Registry
+              
+              If we are running our application on-premises and don't have a private registry?
+              How do we deploy our own private registry within our organization?
+              $ docker run -d -p 5000:5000 --name retistry registry:2             // The Docker registry is itself another application, and of course it's available as a Docker image. The name of the image is registry and it exposes the API on port 5000.
+              $ docker image tag my-image localhost:5000/my-image                 // Docker image tag command to tag the image with the private registry URL in it.
+              $ docker push localhost:5000/my-image                               // I can then push my image to my local private registry using the command docker push and the new image
+              $ docker pull localhost:5000/my-image                               // I can pull my image from anywhere within this network using either localhost if you're on the same host, or the IP or domain name of my docker host, if I'm accessing from another host in my environment.
+              $ docker pull 192.168.56.100:5000/my-image       
 
-
-  Section 20 - 
+   Section 20 - 
 
 
 
