@@ -442,8 +442,14 @@ Section 12 - Systems Administration with Jenkins
               $ docker pull localhost:5000/my-image                               // I can pull my image from anywhere within this network using either localhost if you're on the same host, or the IP or domain name of my docker host, if I'm accessing from another host in my environment.
               $ docker pull 192.168.56.100:5000/my-image       
 
-   Section 20 - 
+   Section 20 - Kubernetes Overview
+                * Introduction
+                * Containers overview
+                * Container Orchestration
+                * Kubernetes Architecture
 
+   Section 21 - Setup Kubernetes 
+   Section 22 - Kubernetes Concepts
 
 
 
