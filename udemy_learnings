@@ -449,7 +449,21 @@ Section 12 - Systems Administration with Jenkins
 
                 * Container Orchestration
                   Container Orchestration Tools: Kubernetes (Google) | Docker Swarm (Docker) | MESOS (Apache)
+
                 * Kubernetes Architecture
+                  Nodes: A node is a worker machine, and that is where containers will be launched by Kubernetes.
+                  Cluster: A cluster is a set of nodes grouped together.
+                  Components of Kubernetes
+                    API Servers: The API server acts as the front end for Kubernetes. The users management devices, command line interfaces all talk to the API server to interact with the Kubernetes cluster.
+                    etcd: It is a distributed reliable key value store used by Kubernetes to store all data used to manage the cluster.
+                    kubelet: It is the agent that runs on each node in the cluster. The agent is responsible for making sure that the containers are running on the nodes as expected.
+                    Container Runtime: The container runtime is the underlying software that is used to run containers.
+                    Controller: The controllers are the brain behind orchestration. They are responsible for noticing and responding when nodes, containers or endpoints goes down. The controllers make decisions to bring up new containers in such cases. 
+                    Scheduler: The scheduler is responsible for distributing work or containers across multiple nodes. It looks for newly created containers and assigns them to nodes.
+                
+                Master Vs Worker Nodes
+                kubectl? Cube Command Line Tool or Cube CTL or Cube Control, as it is also called. The Cube Control tool is used to deploy and manage applications on a Kubernetes cluster to get cluster information, to get the status of other nodes in the cluster and to manage many other things.
+                The Cube CTL run command is used to deploy an application on the cluster. The Cube Cluster Info command is used to view information about the cluster and the cube CTL get nodes. Command is used to list all the nodes part of the cluster.
 
    Section 21 - Setup Kubernetes 
    Section 22 - Kubernetes Concepts
