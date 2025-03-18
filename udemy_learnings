@@ -466,6 +466,12 @@ Section 12 - Systems Administration with Jenkins
                 The Cube CTL run command is used to deploy an application on the cluster. The Cube Cluster Info command is used to view information about the cluster and the cube CTL get nodes. Command is used to list all the nodes part of the cluster.
 
    Section 21 - Setup Kubernetes 
+                * Kubernetes Setup - Introduction and Minikube
+                  So there are a lot of ways to set up Kubernetes. We can set it up ourselves locally on our laptops or virtual machines using solutions like MiniKube, MicroK8s or  (The Kubeadm tool is used to bootstrap and manage production grade Kubernetes clusters.)
+                  
+                * Demo - Minikube-Setup
+                * Reference
+
    Section 22 - Kubernetes Concepts
 
 
