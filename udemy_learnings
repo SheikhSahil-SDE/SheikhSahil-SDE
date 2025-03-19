@@ -470,7 +470,18 @@ Section 12 - Systems Administration with Jenkins
                   So there are a lot of ways to set up Kubernetes. We can set it up ourselves locally on our laptops or virtual machines using solutions like MiniKube, MicroK8s or  (The Kubeadm tool is used to bootstrap and manage production grade Kubernetes clusters.)
                   
                 * Demo - Minikube-Setup
+                  PREREQUISITES 
+                  kubectl 
+                  HYpervisor (Oracle VM, VMware)
+              
                 * Reference
+                              Install and set up the kubectl tool: – https://kubernetes.io/docs/tasks/tools/
+                              
+                              Install Minikube: – https://minikube.sigs.k8s.io/docs/start/
+                              
+                              Install VirtualBox: – https://www.virtualbox.org/wiki/Downloads | https://www.virtualbox.org/wiki/Linux_Downloads
+                              
+                              Minikube Tutorial: – https://kubernetes.io/docs/tutorials/hello-minikube/              
 
    Section 22 - Kubernetes Concepts
 
