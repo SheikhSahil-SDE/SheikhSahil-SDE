@@ -2,7 +2,7 @@
 <h1 align="center">Hey Everyone 👋, I'm Sheikh Sahil</h1>
 
 <div align="center">
-  <img src="" alt="My Banner">
+  <img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/Assets/Screenshot%202025-03-27%20154549.png" alt="My Banner">
 </div>
 
 <h3 align="center">A passionate DevOps Engineer from India. I work in the Corporate IT Sector</h3>
