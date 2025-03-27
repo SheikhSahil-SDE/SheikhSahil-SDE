@@ -2,13 +2,13 @@
 <h1 align="center">Hey Everyone 👋, I'm Sheikh Sahil</h1>
 
 <div align="center">
-  <img src="" alt="MiBanner">
+  <img src="" alt="My Banner">
 </div>
 
-<h3 align="center">A passionate DevOps Engineer from India. I work in the Corporate IT Sector and in my free time I make YouTube videos at <a href="https://www.youtube.com/@devopsshack" target="_blank">DevOpsShack</a></h3>
+<h3 align="center">A passionate DevOps Engineer from India. I work in the Corporate IT Sector and in my free time</h3>
 
 <p align="center">
-  <a href="https://github.com/jaiswaladi246">
+  <a href="">
     <img src="https://img.shields.io/github/followers/jaiswaladi246?label=Follow&style=social" />
   </a>
   <a href="https://www.youtube.com/@devopsshack">
@@ -25,9 +25,9 @@
   <img src="https://komarev.com/ghpvc/?username=jaiswaladi246&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
-- 👨‍💻 All of my projects are available at [https://github.com/jaiswaladi246](https://github.com/jaiswaladi246)  
+- 👨‍💻 All of my projects are available at [https://github.com/SheikhSahil-SDE](https://github.com/SheikhSahil-SDE)  
 - 💬 Ask me about **DevOps & Cloud DevOps**  
-- 📫 How to reach me **office@devopsshack.com**
+- 📫 How to reach me **sheikhsahil_1@proton.me**
 
 ---
 
