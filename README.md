@@ -1,4 +1,3 @@
-`
 <h1 align="center">Hey Everyone 👋, I'm Sheikh Sahil</h1>
 
 <div align="center">
@@ -8,11 +7,11 @@
 <h3 align="center">A passionate DevOps Engineer from India. I work in the Corporate IT Sector</h3>
 
 <p align="center">
-  <a href="">
-    <img src="https://img.shields.io/github/followers/jaiswaladi246?label=Follow&style=social" />
+  <a href="https://github.com/SheikhSahil-SDE/" target="blank">
+    <img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/Assets/github.png" height="30" width="40" />
   </a>
 
-  <a href="https://www.linkedin.com/in/sheikhsahil/">
+  <a href="https://www.linkedin.com/in/sheikhsahil/" target="blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
   </a>
 </p>
