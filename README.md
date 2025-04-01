@@ -79,7 +79,7 @@
 
 ### 👨‍💼 About Me & 🤝 Open to Collaborations
 
-🎤 Available for **Free---lancing**  
+🎤 Available for **Freelancing**  
 🤝 Open to **Project Collaborations**  
 💼 Offering **DevOps Services**  
 📧 Let’s chat: [sheikhsahil_1@proton.me](mailto:sheikhsahil_1@proton.me)
