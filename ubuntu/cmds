@@ -1,0 +1,7 @@
+$ cat /etc/*release* - To check the Ubuntu Version
+$ sudo ufw disable - To disable the Firewalls
+$ sudo ufw enable - To enable the Firewalls
+$ sudo apt install network-manager-openvpn-gnome -y
+$ sudo apt update && sudo apt full-upgrade -y 
+$ cc <program_name>.c - To compile C-program <program_name> with .c extension
+$ ./a.out - To execute the program
