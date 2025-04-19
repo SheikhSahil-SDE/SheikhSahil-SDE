@@ -7,10 +7,13 @@ COCOMO Model – Software Engineering - https://www.geeksforgeeks.org/software-e
 E = a*(KLOC)^b  PM = 26.928
 Tdev = c*(E)^d = 
 Person required = Effort/ Time = 2.692 
+
 Where,
 E is effort applied in Person-Months
 KLOC is the estimated size of the software product indicate in Kilo Lines of Code
-Tdev is the development time in months
+Tdev is the development time in months.
 a = 2.4, b = 1.05 , c = 2.5 & d = 0.38 are constants determined by the category of software project given in below table.
+
+Estimated Cost = Effort(E) * Avg. cost per person
 
 Levels in Data Flow Diagrams (DFD) - https://www.geeksforgeeks.org/levels-in-data-flow-diagrams-dfd/?ref=ml_lbp
