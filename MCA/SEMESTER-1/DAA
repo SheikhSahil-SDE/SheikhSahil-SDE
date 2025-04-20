@@ -10,8 +10,6 @@ Step by step approach:
       Else add the current item as much as we can and break out of the loop.
 5. Return res.
 
-
-
 Profits - p1, p2, p3, p4, p5, p6, p7 
 Profits - 15 5 20 8 7 20 6
 Weights - 3  4  6 8 2  2 3 
@@ -28,3 +26,74 @@ Ratio Profit Weight  Fraction
 2     6      3        1/4 = 0.25
 1.25  5      4        0
 1     8      8        0
+
+
+
+#include <stdio.h>
+
+// Structure to represent an item
+struct Item {
+    int profit;
+    int weight;
+    float ratio;
+};
+
+// Function to sort items based on profit/weight ratio (descending)
+void sortItems(struct Item items[], int n) {
+    struct Item temp;
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (items[j].ratio > items[i].ratio) {
+                // Swap items[i] and items[j]
+                temp = items[i];
+                items[i] = items[j];
+                items[j] = temp;
+            }
+        }
+    }
+}
+
+void fractionalKnapsack(struct Item items[], int n, int capacity) {
+    sortItems(items, n); // Sort items based on ratio
+
+    float totalProfit = 0.0;
+
+    printf("\nItems taken:\n");
+    for (int i = 0; i < n && capacity > 0; i++) {
+        if (items[i].weight <= capacity) {
+            capacity -= items[i].weight;
+            totalProfit += items[i].profit;
+            printf("Item %d: 100%% taken (Profit = %d, Weight = %d)\n", i + 1, items[i].profit, items[i].weight);
+        } else {
+            float fraction = (float)capacity / items[i].weight;
+            totalProfit += items[i].profit * fraction;
+            printf("Item %d: %.2f%% taken (Profit = %d, Weight = %d)\n", i + 1, fraction * 100, items[i].profit, items[i].weight);
+            break;
+        }
+    }
+
+    printf("\nTotal Profit = %.2f\n", totalProfit);
+}
+
+int main() {
+    int n, capacity;
+
+    printf("Enter number of items: ");
+    scanf("%d", &n);
+
+    struct Item items[n];
+
+    for (int i = 0; i < n; i++) {
+        printf("Enter profit and weight of item %d: ", i + 1);
+        scanf("%d %d", &items[i].profit, &items[i].weight);
+        items[i].ratio = (float)items[i].profit / items[i].weight;
+    }
+
+    printf("Enter knapsack capacity: ");
+    scanf("%d", &capacity);
+
+    fractionalKnapsack(items, n, capacity);
+
+    return 0;
+}
+
