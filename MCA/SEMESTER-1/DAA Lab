@@ -185,13 +185,13 @@ Q2: Apply Huffman’s algorithm to construct an optimal binary prefix code for t
     Final Huffman Codes:
     
     Letter	Frequency	Code	Length
-    A	      15	      0	    1
-    B	      25	      11	  2
-    C	      5	        1000	4
-    D	      7	        1001	4
-    E	      10	      011	  3
-    F      	13	      101	  3
-    G	      9	        010	  3
+    A	      15	      0	    1      
+    B	      25	      11	    2
+    C	      5	      1000	    4
+    D	      7	      1001	    4
+    E	      10	      011	    3
+    F      	13	      101	    3
+    G	      9	      010	    3
     These codes are prefix-free (no code is a prefix of another), satisfying Huffman’s requirements.
     
     Part 2: Average Number of Bits per Character
@@ -212,7 +212,8 @@ Q2: Apply Huffman’s algorithm to construct an optimal binary prefix code for t
     Average Number of Bits per Character: Approximately 2.49 bits.
     
     Part 3: C Implementation of Huffman’s Algorithm
-    Below is a C program that implements Huffman’s algorithm for the given problem instance. It constructs the Huffman tree, generates the codes, and calculates the average number of bits. The code includes comments for readability and runs the specific instance provided.
+    Below is a C program that implements Huffman’s algorithm for the given problem instance. It constructs the Huffman tree, generates the codes, and calculates the average number of bits. 
+    The code includes comments for readability and runs the specific instance provided.
         
         
         
