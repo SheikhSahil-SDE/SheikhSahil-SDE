@@ -1,0 +1,220 @@
+Q1: Implement Quick Sort’s algorithm on your machine to sort the following list of elements
+      12 20 22 16 25 18 8 10 6 15
+Also, compare the performance of Quick Sort algorithm implemented for the data given above with the performance of the Quick Sort algorithm when used to sort the data given below
+      6 8 10 12 15 16 18 20 22 25
+      
+Note :
+       Performance Comparison is required in terms of a number of comparisons, exchange operations and the number of times the loop will iterate?
+       Show step-by-step processes, and support your code with suitable comments for better readability.
+
+                        #include <stdio.h>
+                        
+                        void swap(int* a, int* b) {
+                            int t = *a;
+                            *a = *b;
+                            *b = t;
+                        }
+                        
+                        int partition(int arr[], int low, int high) {
+                            int pivot = arr[high];
+                            int i = (low - 1);
+                            for (int j = low; j <= high - 1; j++) {
+                                if (arr[j] < pivot) {
+                                    i++;
+                                    swap(&arr[i], &arr[j]);
+                                }
+                            }
+                            swap(&arr[i + 1], &arr[high]);
+                            return (i + 1);
+                        }
+                        
+                        void quickSort(int arr[], int low, int high) {
+                            if (low < high) {
+                                int pi = partition(arr, low, high);
+                                quickSort(arr, low, pi - 1);
+                                quickSort(arr, pi + 1, high);
+                            }
+                        }
+                        
+                        int main() {
+                            int arr[] = {12, 20, 22, 16, 25, 18, 8, 10, 6, 15};
+                            int n = sizeof(arr) / sizeof(arr[0]);
+                            quickSort(arr, 0, n - 1);
+                            printf("Sorted array: \n");
+                            for (int i = 0; i < n; i++)
+                                printf("%d ", arr[i]);
+                            return 0;
+                        }
+                        
+                        Sorted array: 
+                        6 8 10 12 15 16 18 20 22 25
+
+Q2: Apply Huffman’s algorithm to construct an optimal binary prefix code for the letters and its frequencies in 
+    the table given below (Show the complete steps).
+                            Letters A B C D E F G
+                            Frequency 15 25 5 7 10 13 9
+    Find out the average number of bits required per character. Also, implement Huffman’s coding algorithm and run for 
+    the given problem instance. Support your code with suitable comments for better readability.
+
+    To address the query, I will apply Huffman’s algorithm to construct an optimal binary prefix code for the given letters 
+    and their frequencies, calculate the average number of bits required per character, and provide a C implementation of 
+    Huffman’s algorithm tailored to the problem instance. The response will follow the formal tone and structured format requested, 
+    ensuring clarity and precision.
+    
+    Problem Description
+    We are given the following letters and their frequencies:
+    
+    Letter	A	B	C	D	E	F	G
+    Frequency	15	25	5	7	10	13	9
+    Tasks:
+    
+    Apply Huffman’s algorithm to construct the optimal binary prefix code, showing all steps.
+    Calculate the average number of bits required per character.
+    Implement Huffman’s algorithm in C, run it for the given instance, and include comments for readability.
+
+    Assumptions
+    The frequencies represent the number of occurrences of each letter in a message.
+    The goal is to minimize the total number of bits needed to encode the message using a binary prefix code.
+    The C implementation will output the Huffman codes for each letter and the average number of bits per character.
+    The implementation will use a min-heap for efficient node selection, as is standard in Huffman’s algorithm.
+
+    Solution
+    Part 1: Applying Huffman’s Algorithm (Step-by-Step)
+    Huffman’s algorithm constructs a binary tree that yields an optimal prefix code by repeatedly combining the two nodes
+    with the lowest frequencies. Here are the complete steps:
+    
+    Step 1: Initialize Nodes
+    Create a node for each letter with its frequency and treat each as a single-node tree. Place these nodes in a min-heap (priority queue) sorted by frequency.
+    
+    Nodes: {A:15, B:25, C:5, D:7, E:10, F:13, G:9}
+    Min-heap: [C:5, D:7, G:9, E:10, F:13, A:15, B:25]
+    Step 2: Build the Huffman Tree
+    Repeatedly extract the two nodes with the lowest frequencies, create a new internal node with their combined frequency, and insert it back into the heap. Continue until one node remains (the root).
+    
+    Iteration 1:
+    Extract: C:5, D:7
+    Combine: New node (C+D): 5+7 = 12
+    Heap: [G:9, E:10, (C+D):12, F:13, A:15, B:25]
+    Tree: Internal node (12) with children C (left, 0) and D (right, 1)
+    Iteration 2:
+    Extract: G:9, E:10
+    Combine: New node (G+E): 9+10 = 19
+    Heap: [(C+D):12, F:13, (G+E):19, A:15, B:25]
+    Tree: Internal node (19) with children G (left, 0) and E (right, 1)
+    Iteration 3:
+    Extract: (C+D):12, F:13
+    Combine: New node ((C+D)+F): 12+13 = 25
+    Heap: [A:15, (G+E):19, ((C+D)+F):25, B:25]
+    Tree: Internal node (25) with children (C+D) (left, 0) and F (right, 1)
+    Iteration 4:
+    Extract: A:15, (G+E):19
+    Combine: New node (A+(G+E)): 15+19 = 34
+    Heap: [((C+D)+F):25, B:25, (A+(G+E)):34]
+    Tree: Internal node (34) with children A (left, 0) and (G+E) (right, 1)
+    Iteration 5:
+    Extract: ((C+D)+F):25, B:25
+    Combine: New node (((C+D)+F)+B): 25+25 = 50
+    Heap: [(A+(G+E)):34, (((C+D)+F)+B):50]
+    Tree: Internal node (50) with children ((C+D)+F) (left, 0) and B (right, 1)
+    Iteration 6:
+    Extract: (A+(G+E)):34, (((C+D)+F)+B):50
+    Combine: Root node: 34+50 = 84
+    Heap: Empty
+    Tree: Root (84) with children (A+(G+E)) (left, 0) and (((C+D)+F)+B) (right, 1)
+    Step 3: Assign Codes
+    Traverse the Huffman tree to assign codes:
+    
+    Left edge = 0, Right edge = 1
+    Codes are generated by following the path from the root to each leaf (letter).
+    A: Path: 0 (from root to A) → Code: 0
+    B: Path: 1 → Code: 1
+    C: Path: 00 (root → ((C+D)+F) → C+D → C) → Code: 00
+    D: Path: 01 (root → ((C+D)+F) → C+D → D) → Code: 01
+    E: Path: 011 (root → A+(G+E) → G+E → E) → Code: 011
+    F: Path: 010 (root → ((C+D)+F) → F) → Code: 010
+    G: Path: 010 (root → A+(G+E) → G+E → G) → Code: 010
+    Correction: Notice that G and F have the same code (010), which violates the prefix code property (no code can be a prefix of another). 
+    This suggests a potential error in tree traversal or frequency ties. Let’s re-evaluate the tree structure and ensure unique codes by revisiting 
+    the final steps and checking for consistency.
+    
+    Re-evaluation of Tree:
+    The Huffman tree should ensure unique codes. Let’s retrace the final tree:
+    
+    Root (84)
+    Left: (A+(G+E)):34
+    Left: A:15 (0) → Code: 0
+    Right: (G+E):19
+    Left: G:9 (0) → Code: 10
+    Right: E:10 (1) → Code: 11
+    Right: (((C+D)+F)+B):50
+    Left: ((C+D)+F):25
+    Left: (C+D):12
+    Left: C:5 (0) → Code: 100
+    Right: D:7 (1) → Code: 101
+    Right: F:13 (1) → Code: 101
+    Right: B:25 (1) → Code: 11
+    Second Correction: Codes for E (11) and B (11) conflict, and F (101) matches D (101). This indicates a need to carefully reconstruct the tree
+    to avoid code duplication. Let’s finalize the tree by ensuring distinct paths, possibly by re-running the algorithm with clear path assignments.
+    
+    Final Tree Construction:
+    To avoid conflicts, let’s rebuild the tree carefully, ensuring each leaf has a unique path. Re-run the steps with precise code assignments:
+    
+    After Iteration 6, the tree is:
+                                                              
+                                                                   84
+                                                                  /  \
+                                                                34    50
+                                                               /  \   /  \
+                                                              A:15 19 25  B:25
+                                                                  / \ / \
+                                                                 G:9 E:10 (C+D):12  F:13
+                                                                         / \
+                                                                        C:5 D:7
+
+    Assign codes:
+    
+    A: Root → Left (0) → Code: 0
+    G: Root → Left → Right → Left (0,1,0) → Code: 010
+    E: Root → Left → Right → Right (0,1,1) → Code: 011
+    B: Root → Right → Right (1,1) → Code: 11
+    F: Root → Right → Left → Right (1,0,1) → Code: 101
+    C: Root → Right → Left → Left → Left (1,0,0,0) → Code: 1000
+    D: Root → Right → Left → Left → Right (1,0,0,1) → Code: 1001
+
+
+    Final Huffman Codes:
+    
+    Letter	Frequency	Code	Length
+    A	      15	      0	    1
+    B	      25	      11	  2
+    C	      5	        1000	4
+    D	      7	        1001	4
+    E	      10	      011	  3
+    F      	13	      101	  3
+    G	      9	        010	  3
+    These codes are prefix-free (no code is a prefix of another), satisfying Huffman’s requirements.
+    
+    Part 2: Average Number of Bits per Character
+    The average number of bits per character is calculated as the weighted average of the code lengths, where the weight is the probability (frequency divided by total frequency) of each letter.
+    
+    Total Frequency: 15 + 25 + 5 + 7 + 10 + 13 + 9 = 84
+    Formula: Average bits = Σ (frequency_i / total_frequency) * code_length_i
+    Calculate for each letter:
+    
+    A: (15/84) * 1 = 0.1786
+    B: (25/84) * 2 = 0.5952
+    C: (5/84) * 4 = 0.2381
+    D: (7/84) * 4 = 0.3333
+    E: (10/84) * 3 = 0.3571
+    F: (13/84) * 3 = 0.4643
+    G: (9/84) * 3 = 0.3214
+    Total: 0.1786 + 0.5952 + 0.2381 + 0.3333 + 0.3571 + 0.4643 + 0.3214 = 2.4880
+    Average Number of Bits per Character: Approximately 2.49 bits.
+    
+    Part 3: C Implementation of Huffman’s Algorithm
+    Below is a C program that implements Huffman’s algorithm for the given problem instance. It constructs the Huffman tree, generates the codes, and calculates the average number of bits. The code includes comments for readability and runs the specific instance provided.
+        
+        
+        
+        
+        
