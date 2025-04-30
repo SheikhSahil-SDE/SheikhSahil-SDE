@@ -1,0 +1,7 @@
+Section-3  Installation & Prerequisites
+            1. Create an AWS Acc. (Already Done)
+            2. Create an IAM user with required permissions
+                IAM is used for a) Authentication - User/Group
+                              & b) Authorization - Roles/Permissions (Read/Write/Delete/Update)
+
+            3. 
