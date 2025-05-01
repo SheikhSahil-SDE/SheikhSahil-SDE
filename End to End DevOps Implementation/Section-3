@@ -4,4 +4,5 @@ Section-3  Installation & Prerequisites
                 IAM is used for a) Authentication - User/Group
                               & b) Authorization - Roles/Permissions (Read/Write/Delete/Update)
 
-            3. 
+            3. Created an EC2 Instance 
+            4. 
