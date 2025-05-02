@@ -5,4 +5,10 @@ Section-3  Installation & Prerequisites
                               & b) Authorization - Roles/Permissions (Read/Write/Delete/Update)
 
             3. Created an EC2 Instance 
-            4. 
+               CMD $ cd <directory where .pem/ppk file is located>
+               CMD $ ssh -i file_name.ppk ubuntu@<Public IPv4 address>
+               then yes
+               CMD $ chmod 400/600 file_name.ppk
+
+            4. Install Docker
+            5. 
