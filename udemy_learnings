@@ -463,7 +463,7 @@ Section 12 - Systems Administration with Jenkins
                 * Demo - Minikube-Setup
                   PREREQUISITES 
                   kubectl 
-                  HYpervisor (Oracle VM, VMware)
+                  Hypervisor (Oracle VM, VMware)
               
                 * Reference
                               Install and set up the kubectl tool: – https://kubernetes.io/docs/tasks/tools/
@@ -472,7 +472,8 @@ Section 12 - Systems Administration with Jenkins
                               
                               Install VirtualBox: – https://www.virtualbox.org/wiki/Downloads | https://www.virtualbox.org/wiki/Linux_Downloads
                               
-                              Minikube Tutorial: – https://kubernetes.io/docs/tutorials/hello-minikube/              
+                              Minikube Tutorial: – https://kubernetes.io/docs/tutorials/hello-minikube/         
+              
 
    Section 22 - Kubernetes Concepts
 
