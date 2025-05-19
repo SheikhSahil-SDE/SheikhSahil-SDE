@@ -1,4 +1,4 @@
-Section-3  Installation & Prerequisites
+Section-3:  Installation & Prerequisites
             1. Create an AWS Acc. (Already Done)
             2. Create an IAM user with required permissions
                 IAM is used for a) Authentication - User/Group
@@ -32,7 +32,8 @@ Section-3  Installation & Prerequisites
 
                 $ terraform -help
                 $ terraform --version
-                $ terraform -help plan
-                                   
+                $ terraform -help plan                                   
 
-Section-4  Run the project locally without Kubernetes 
+Section-4:  Run the project locally without Kubernetes 
+
+
