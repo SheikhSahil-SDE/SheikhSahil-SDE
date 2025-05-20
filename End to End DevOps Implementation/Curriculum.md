@@ -1,4 +1,7 @@
-Section-3:  Installation & Prerequisites
+## Section-3:  
+            
+            Installation & Prerequisites
+            
             1. Create an AWS Acc. (Already Done)
             2. Create an IAM user with required permissions
                 IAM is used for a) Authentication - User/Group
@@ -34,10 +37,14 @@ Section-3:  Installation & Prerequisites
                 $ terraform --version
                 $ terraform -help plan                                   
 
-Section-4:  Run the project locally without Kubernetes 
+## Section-4: 
+            
+            Run the project locally without Kubernetes 
 
             Checked docker compose: $ docker compose -h
+            
             Cloned Git Repo: $ git clone https://github.com/iam-veeramalla/ultimate-devops-project-demo.git
+            
             Changed directory to ==> ultimate-devops-project-demo: $ cd ultimate-devops-project-demo
 
             $ pstree
