@@ -44,12 +44,13 @@ Section-4:  Run the project locally without Kubernetes
             $ htop 
             $ top
             $ ps / $ ps aux
+            $ ls -ltr
 
 
 
 
 
 
-                                                                   $ ls -ltr
+                                                                   
 
 
