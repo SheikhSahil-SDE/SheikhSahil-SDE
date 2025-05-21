@@ -54,6 +54,7 @@
                         $ ls -ltr
                         $ netstat -tuln
                         $ sudo tcpdump -i <Primary_Network_Interface_name> port <PORT>
+                        $ traceroute <website>
 
 
 
