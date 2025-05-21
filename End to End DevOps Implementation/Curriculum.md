@@ -11,7 +11,7 @@
                CMD $ cd <directory where .pem/ppk file is located>
                CMD $ ssh -i file_name.ppk ubuntu@<Public IPv4 address>
                then yes
-               CMD $ chmod 400/600 file_name.ppk
+               CMD $ chmod 400/600 file_name.ppk/.pem
 
             4. Install Docker
                
