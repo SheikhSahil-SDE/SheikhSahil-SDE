@@ -47,11 +47,13 @@
             
             Changed directory to ==> ultimate-devops-project-demo: $ cd ultimate-devops-project-demo
 
-            $ pstree
-            $ htop 
-            $ top
-            $ ps / $ ps aux
-            $ ls -ltr
+                        $ pstree
+                        $ htop 
+                        $ top
+                        $ ps / $ ps aux
+                        $ ls -ltr
+                        $ netstat -tuln
+                        $ sudo tcpdump -i <Primary_Network_Interface_name> port <PORT>
 
 
 
