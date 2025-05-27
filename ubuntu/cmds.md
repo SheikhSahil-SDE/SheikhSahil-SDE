@@ -48,7 +48,31 @@
         
     
     
-
+```
 $ gedit <program_name>.c To open the gedit text editor,
 $ cc <program_name>.c - To compile C-program <program_name> with .c extension
 $ ./a.out - To execute the program
+```
+```
+Few shortcuts
+
+    $ history
+        - Gives all the commands executed over the bash/terminal
+
+    Ctrl + R
+        - To reverse search the particular cmd
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
