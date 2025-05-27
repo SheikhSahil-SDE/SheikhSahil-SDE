@@ -12,6 +12,9 @@
     $ sudo apt install network-manager-openvpn-gnome -y
   
     $ sudo apt update && sudo apt full-upgrade -y 
+
+    $ sudo cat /var/log/auth.log
+            - To check the logs of the day
     
     $ du -sh <file_name> 
             - Check the space utilization of the <file_name>
@@ -33,7 +36,16 @@
     $ netstat -tuln
           - To check Active Internet connections (only servers)
 
-    
+    $ lsof -i :<PORT>
+        - lisof Open Files
+        - To check the <PORT> is used by which process
+
+    $ sudo head -n <NO_of_line> /var/log/auth.log
+        - - To check the first <NO_of_line> of logs
+
+    $ sudo tail -n <NO_of_line> /var/log/auth.log
+        - To check the last <NO_of_line> of logs
+        
     
     
 
