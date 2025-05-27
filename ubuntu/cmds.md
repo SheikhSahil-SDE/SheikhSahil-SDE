@@ -52,8 +52,7 @@
 $ gedit <program_name>.c To open the gedit text editor,
 $ cc <program_name>.c - To compile C-program <program_name> with .c extension
 $ ./a.out - To execute the program
-```
-```
+
 Few shortcuts
 
     $ history
@@ -61,6 +60,13 @@ Few shortcuts
 
     Ctrl + R
         - To reverse search the particular cmd
+
+    $ export PS1="<any_name> $:"
+            - To reflect "<any_name> $:"  in the cli/bash
+
+    $ export PS1="$PWD :"
+            - To check the Present Working Directory
+
 ```
 
 
