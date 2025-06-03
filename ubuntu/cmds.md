@@ -71,7 +71,11 @@ Few shortcuts
 
 
 
+```
+$ sudo usermod -aG docker ubuntu //To give the access to docker my ubuntu (EC2 instance)
 
+
+```
 
 
 
