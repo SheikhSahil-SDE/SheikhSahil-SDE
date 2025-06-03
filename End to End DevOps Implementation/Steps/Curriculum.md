@@ -1,7 +1,6 @@
-## Section-3:  
+## Section-3:  Installation & Prerequisites
             
-            Installation & Prerequisites
-            
+                      
             1. Create an AWS Acc. (Already Done)
             2. Create an IAM user with required permissions
                 IAM is used for a) Authentication - User/Group
@@ -49,9 +48,8 @@
                 <img src="" width="1000" height="450">
                 $ terraform -help plan                                   
 
-## Section-4: 
-            
-            Run the project locally without Kubernetes 
+## Section-4:  Run the project locally without Kubernetes             
+           
 
             Checked docker compose: $ docker compose -h
             
@@ -70,7 +68,27 @@
 
 
 
+# Section-5: Containerization of the project 
 
+
+                                                                   
+# Section-6: Docker Compose Overvier
+
+
+                                                                   
+# Section-7: 
+
+
+                                                                   
+# Section-8: 
+
+
+                                                                   
+# Section-9: 
+
+
+                                                                   
+# Section-10: 
 
 
                                                                    
