@@ -19,11 +19,13 @@
                
             5. Install Kubectl
                         1. Download the latest release with the command: $ curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+                        <img src="" width="1000" height="450">
                         2. Validate the binary (optional): $  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
                            Validate the kubectl binary against the checksum file: $ echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+                            <img src="" width="1000" height="450">
                         3. Install kubectl: $ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
                         4. Test to ensure the version you installed is up-to-date: $ kubectl version --client
-                        
+                         <img src="" width="1000" height="450">
 
 
             6. Install Terraform
