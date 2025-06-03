@@ -8,14 +8,23 @@
                               & b) Authorization - Roles/Permissions (Read/Write/Delete/Update)
 
             3. Created an EC2 Instance 
-               CMD $ cd <directory where .pem/ppk file is located>
+               CMD $ cd <directory where .pem/ppk file is located> //.pem for Linux or Mac && .ppk for windows
                CMD $ ssh -i file_name.ppk ubuntu@<Public IPv4 address>
                then yes
                CMD $ chmod 400/600 file_name.ppk/.pem
+               $ sudo usermod -aG docker ubuntu //To give the access to docker my ubuntu (EC2 instance)
+
 
             4. Install Docker
                
             5. Install Kubectl
+                        1. Download the latest release with the command: $ curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+                        2. Validate the binary (optional): $  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+                           Validate the kubectl binary against the checksum file: $ echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+                        3. Install kubectl: $ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+                        4. Test to ensure the version you installed is up-to-date: $ kubectl version --client
+                        
+
 
             6. Install Terraform
 
