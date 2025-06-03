@@ -46,6 +46,7 @@
 
                 $ terraform -help
                 $ terraform --version
+                <img src="" width="1000" height="450">
                 $ terraform -help plan                                   
 
 ## Section-4: 
