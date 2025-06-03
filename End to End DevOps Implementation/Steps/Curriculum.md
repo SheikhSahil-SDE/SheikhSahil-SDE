@@ -50,21 +50,36 @@
 
 ## Section-4:  Run the project locally without Kubernetes             
            
+                        RUN THE PROJECT LOCALLY
+                        
+                        Checked docker compose: $ docker compose -h
+                        
+                        Cloned Git Repo: $ git clone https://github.com/iam-veeramalla/ultimate-devops-project-demo.git
 
-            Checked docker compose: $ docker compose -h
-            
-            Cloned Git Repo: $ git clone https://github.com/iam-veeramalla/ultimate-devops-project-demo.git
-            
-            Changed directory to ==> ultimate-devops-project-demo: $ cd ultimate-devops-project-demo
+                        $ docker compose up
+                        
+                        $  df -h //
+                        
+                        $ lsblk
 
-                        $ pstree
-                        $ htop 
-                        $ top
-                        $ ps / $ ps aux
-                        $ ls -ltr
-                        $ netstat -tuln
-                        $ sudo tcpdump -i <Primary_Network_Interface_name> port <PORT>
-                        $ traceroute <website>
+                        $ sudo apt install cloud-guest-utils
+
+                        $ sudo growpart /dev/xvda 1 //
+
+                         $ lsblk // Again to check the updated partition
+                        
+
+                        
+                        Changed directory to ==> ultimate-devops-project-demo: $ cd ultimate-devops-project-demo
+            
+                                    $ pstree
+                                    $ htop 
+                                    $ top
+                                    $ ps / $ ps aux
+                                    $ ls -ltr
+                                    $ netstat -tuln
+                                    $ sudo tcpdump -i <Primary_Network_Interface_name> port <PORT>
+                                    $ traceroute <website>
 
 
 
