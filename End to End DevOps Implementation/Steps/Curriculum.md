@@ -67,6 +67,9 @@
                         $ sudo growpart /dev/xvda 1 //
 
                          $ lsblk // Again to check the updated partition
+
+                         $ sudo resize2fs /dev/xvda1 // To resize the disk
+                         
                         
 
                         
