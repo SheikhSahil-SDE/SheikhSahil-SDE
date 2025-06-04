@@ -39,8 +39,11 @@ Validate the kubectl binary against the checksum file: $ echo "$(cat kubectl.sha
 
 
             6. Install Terraform
+            
+<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/TerraForm/Screenshot%20from%202025-06-03%2018-34-03.png" width="1010" height="380">
 
                  $ sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+                 
 <img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/TerraForm/Screenshot%20from%202025-06-03%2018-31-04.png" width="1010" height="300">
 
                  Install the HashiCorp GPG key. $ wget -O- https://apt.releases.hashicorp.com/gpg | \
