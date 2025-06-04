@@ -60,10 +60,17 @@ Validate the kubectl binary against the checksum file: $ echo "$(cat kubectl.sha
                 Add the official HashiCorp repository to your system: $ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 
                 Download the package information from Hashicorp: $ sudo apt-get install terraform
+```
+$ terraform -help
+```
+<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/TerraForm/Screenshot%20from%202025-06-03%2018-38-12.png" width="1010" height="980">
 
-                $ terraform -help
-                $ terraform --version
-                <img src="" width="1000" height="450">
+
+```                
+$ terraform --version
+```
+<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/TerraForm/Screenshot%20from%202025-06-03%2018-35-46.png" width="450" height="80">
+
                 $ terraform -help plan      
                 <img src="" width="1000" height="450">
 
