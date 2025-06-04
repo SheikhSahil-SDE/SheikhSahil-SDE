@@ -32,18 +32,23 @@ Validate the kubectl binary against the checksum file: $ echo "$(cat kubectl.sha
 <img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/KUBECTL/Screenshot%20from%202025-06-03%2018-26-00.png" width="1000" height="60">
 
                         3. Install kubectl: $ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
-                        4. Test to ensure the version you installed is up-to-date: $ kubectl version --client
-<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/KUBECTL/Screenshot%20from%202025-06-03%2018-27-42.png" width="900" height="60">
+                        4. Test to ensure the version you installed is up-to-date: 
+                        $ kubectl version --client
+                        
+<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/KUBECTL/Screenshot%20from%202025-06-03%2018-27-42.png" width="650" height="50">
 
 
             6. Install Terraform
 
                  $ sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
-<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/TerraForm/Screenshot%20from%202025-06-03%2018-31-04.png" width="1000" height="300">
+<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/TerraForm/Screenshot%20from%202025-06-03%2018-31-04.png" width="1010" height="300">
 
                  Install the HashiCorp GPG key. $ wget -O- https://apt.releases.hashicorp.com/gpg | \
                                                   gpg --dearmor | \
                                                   sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null
+                                                  
+<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/TerraForm/Screenshot%20from%202025-06-03%2018-31-46.png" width="1010" height="220">
+
 
                  Verify the key's fingerprint. $ gpg --no-default-keyring \
                                                 --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \
