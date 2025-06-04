@@ -18,18 +18,28 @@
                
             5. Install Kubectl
                         1. Download the latest release with the command: $ curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
-                        <img src="" width="1000" height="450">
-                        2. Validate the binary (optional): $  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
-                           Validate the kubectl binary against the checksum file: $ echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
-                            <img src="" width="1000" height="450">
+                        
+                        
+```                        
+2. Validate the binary (optional): $  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+ 
+```                        
+<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/KUBECTL/Screenshot%20from%202025-06-03%2018-25-20.png" width="1000" height="100">
+
+```
+Validate the kubectl binary against the checksum file: $ echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+```
+<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/KUBECTL/Screenshot%20from%202025-06-03%2018-26-00.png" width="1000" height="60">
+
                         3. Install kubectl: $ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
                         4. Test to ensure the version you installed is up-to-date: $ kubectl version --client
-                         <img src="" width="1000" height="450">
+<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/KUBECTL/Screenshot%20from%202025-06-03%2018-27-42.png" width="900" height="60">
 
 
             6. Install Terraform
 
                  $ sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/TerraForm/Screenshot%20from%202025-06-03%2018-31-04.png" width="1000" height="300">
 
                  Install the HashiCorp GPG key. $ wget -O- https://apt.releases.hashicorp.com/gpg | \
                                                   gpg --dearmor | \
@@ -46,7 +56,8 @@
                 $ terraform -help
                 $ terraform --version
                 <img src="" width="1000" height="450">
-                $ terraform -help plan                                   
+                $ terraform -help plan      
+                <img src="" width="1000" height="450">
 
 ## Section-4:  Run the project locally without Kubernetes             
            
