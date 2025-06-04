@@ -63,7 +63,7 @@ Validate the kubectl binary against the checksum file: $ echo "$(cat kubectl.sha
 ```
 $ terraform -help
 ```
-<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/TerraForm/Screenshot%20from%202025-06-03%2018-38-12.png" width="1010" height="980">
+<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/TerraForm/Screenshot%20from%202025-06-03%2018-38-12.png" width="1010" height="700">
 
 
 ```                
