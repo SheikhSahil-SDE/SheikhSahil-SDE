@@ -72,7 +72,7 @@ $ terraform --version
 <img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/TerraForm/Screenshot%20from%202025-06-03%2018-35-46.png" width="450" height="80">
 
                 $ terraform -help plan      
-                <img src="" width="1000" height="450">
+<img src="https://github.com/SheikhSahil-SDE/SheikhSahil-SDE/blob/main/End%20to%20End%20DevOps%20Implementation/TerraForm/Screenshot%20from%202025-06-05%2010-45-51.png" width="1000" height="1050">
 
 ## Section-4:  Run the project locally without Kubernetes             
            
