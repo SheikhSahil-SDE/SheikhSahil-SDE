@@ -76,40 +76,39 @@ $ terraform --version
 
 ## Section-4:  Run the project locally without Kubernetes             
            
-                        RUN THE PROJECT LOCALLY
+                        # RUN THE PROJECT LOCALLY
                         
-                        Checked docker compose: $ docker compose -h
-                        
-                        Cloned Git Repo: $ git clone https://github.com/iam-veeramalla/ultimate-devops-project-demo.git
-
-                        $ docker compose up
-                        
-                        $  df -h //
-                        
-                        $ lsblk
-
-                        $ sudo apt install cloud-guest-utils
-
-                        $ sudo growpart /dev/xvda 1 //
-
-                         $ lsblk // Again to check the updated partition
-
-                         $ sudo resize2fs /dev/xvda1 // To resize the disk
-                         
-                        
-
-                        
-                        Changed directory to ==> ultimate-devops-project-demo: $ cd ultimate-devops-project-demo
+                                    Checked docker compose: $ docker compose -h
+                                    
+                                    Cloned Git Repo: $ git clone https://github.com/iam-veeramalla/ultimate-devops-project-demo.git
             
-                                    $ pstree
-                                    $ htop 
-                                    $ top
-                                    $ ps / $ ps aux
-                                    $ ls -ltr
-                                    $ netstat -tuln
-                                    $ sudo tcpdump -i <Primary_Network_Interface_name> port <PORT>
-                                    $ traceroute <website>
+                                    $ docker compose up
+                                    
+                                    $  df -h //
+                                    
+                                    $ lsblk
+            
+                                    $ sudo apt install cloud-guest-utils
+            
+                                    $ sudo growpart /dev/xvda 1 //
+            
+                                     $ lsblk // Again to check the updated partition
+            
+                                     $ sudo resize2fs /dev/xvda1 // To resize the disk                      
+                        
+                                                
+                                    Changed directory to ==> ultimate-devops-project-demo: $ cd ultimate-devops-project-demo
+                        
+                                                $ pstree
+                                                $ htop 
+                                                $ top
+                                                $ ps / $ ps aux
+                                                $ ls -ltr
+                                                $ netstat -tuln
+                                                $ sudo tcpdump -i <Primary_Network_Interface_name> port <PORT>
+                                                $ traceroute <website>
 
+                       # Understanding AWS Security groups and access the project
 
 
 # Section-5: Containerization of the project 
