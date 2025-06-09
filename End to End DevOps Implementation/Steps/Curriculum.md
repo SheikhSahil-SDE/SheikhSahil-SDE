@@ -113,25 +113,31 @@ $ terraform --version
 
 # Section-5: Containerization of the project 
 
-
+```
+```
                                                                    
 # Section-6: Docker Compose Overview
 
-
+```
+```
                                                                    
 # Section-7: Need for Container Orchestration
 
-
+```
+```
                                                                    
 # Section-8: IaC (Infrastructure as Code) using Terraform
 
-
+```
+```
                                                                    
 # Section-9: Deploying Project to Kubernetes
 
-
+```
+```
                                                                    
 # Section-10: Custom domain configuration for the project
 
-
+```
+```
                                                                    
