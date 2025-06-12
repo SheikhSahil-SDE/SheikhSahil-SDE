@@ -81,8 +81,8 @@ $ sudo usermod -aG docker ubuntu //To give the access to docker my ubuntu (EC2 i
 
 
 
+# For Application
 
-
-
+    ~/Applications/Cursor-1.0.0-x86_64.AppImage
 
 
