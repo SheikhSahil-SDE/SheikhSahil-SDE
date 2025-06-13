@@ -71,14 +71,16 @@ $ free -h
 $ gedit <program_name>.c To open the gedit text editor,
 $ cc <program_name>.c - To compile C-program <program_name> with .c extension
 $ ./a.out - To execute the program
+```
 
 Few shortcuts
 
+Gives all the commands executed over the bash/terminal
+```
     $ history
-        - Gives all the commands executed over the bash/terminal
-
-    Ctrl + R
-        - To reverse search the particular cmd
+```
+To reverse search the particular cmd
+```    Ctrl + R ```
 
     $ export PS1="<any_name> $:"
             - To reflect "<any_name> $:"  in the cli/bash
@@ -89,11 +91,9 @@ Few shortcuts
 ```
 
 
-
+To give the access to docker my ubuntu (EC2 instance)
 ```
-$ sudo usermod -aG docker ubuntu //To give the access to docker my ubuntu (EC2 instance)
-
-
+$ sudo usermod -aG docker ubuntu
 ```
 
 
