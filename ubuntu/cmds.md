@@ -12,31 +12,36 @@ $ dpkg --print-architecture
 To disable the Firewalls
 
 ```
-    $ sudo ufw disable 
+$ sudo ufw disable 
 ```
 
 To enable the firewall
 ```  
-    $ sudo ufw enable 
+$ sudo ufw enable 
 ```
 ```  
 $ sudo apt install network-manager-openvpn-gnome -y
 ```
 ```
-    $ sudo apt update && sudo apt full-upgrade -y 
+$ sudo apt update && sudo apt full-upgrade -y 
 ```
 To check the logs of the day
 ```
-    $ sudo cat /var/log/auth.log
+$ sudo cat /var/log/auth.log
 ```
-    
-    $ du -sh <file_name> 
-            - Check the space utilization of the <file_name>
-    $ df -h
-          - Check the % disk space usage
+Check the space utilization of the <file_name>    
+```
+$ du -sh <file_name> 
+```
+Check the % disk space usage
+```
+$ df -h
+```
+Check the primary memory utilization
+```
+$ free -h
+```
 
-    $ free -h
-          - Check the primary memory utilization
           
     $ journalctl
           - To check the complete log of the services
