@@ -1,69 +1,38 @@
 ## UBUNTU COMMANDS
 
-To check the Ubuntu Version
-```
-$ cat /etc/*release* 
-```
-To check Ubuntu(System Architecture)
-```
-$ dpkg --print-architecture
-```
+To check the Ubuntu Version: ```$ cat /etc/*release* ```
+To check Ubuntu(System Architecture):  ``` $ dpkg --print-architecture ```
 
-To disable the Firewalls
+To disable the Firewalls: ``` $ sudo ufw disable  ```
 
-```
-$ sudo ufw disable 
-```
+To enable the firewall: ``` $ sudo ufw enable ```
 
-To enable the firewall
-```  
-$ sudo ufw enable 
-```
-```  
-$ sudo apt install network-manager-openvpn-gnome -y
-```
-```
-$ sudo apt update && sudo apt full-upgrade -y 
-```
-To check the logs of the day
-```
-$ sudo cat /var/log/auth.log
-```
-Check the space utilization of the <file_name>    
-```
-$ du -sh <file_name> 
-```
-Check the % disk space usage
-```
-$ df -h
-```
-Check the primary memory utilization
-```
-$ free -h
-```
+``` $ sudo apt install network-manager-openvpn-gnome -y ```
 
-          
-    $ journalctl
-          - To check the complete log of the services
+``` $ sudo apt update && sudo apt full-upgrade -y  ```
 
-    $ journalctl -u <image>
-          - To check all the logs of <image>
+To check the logs of the day:``` $ sudo cat /var/log/auth.log ```
 
-    $ journalctl -b
-            - To check all the logs
+Check the space utilization of the <file_name> : ``` $ du -sh <file_name> ```
 
-    $ netstat -tuln
-          - To check Active Internet connections (only servers)
+Check the % disk space usage:```$ df -h ```
 
-    $ lsof -i :<PORT>
-        - lisof Open Files
-        - To check the <PORT> is used by which process
+Check the primary memory utilization:```$ free -h```
 
-    $ sudo head -n <NO_of_line> /var/log/auth.log
-        - - To check the first <NO_of_line> of logs
+To check the complete log of the services:```$ journalctl```
 
-    $ sudo tail -n <NO_of_line> /var/log/auth.log
-        - To check the last <NO_of_line> of logs
+To check all the logs of <image>: ```$ journalctl -u <image>```
+
+To check all the logs: ```$ journalctl -b```
+
+To check Active Internet connections (only servers): ```$ netstat -tuln```
+
+lisof Open Files: ```$ lsof -i :<PORT>```
+To check the <PORT> is used by which process
+
+To check the first <NO_of_line> of logs: ```$ sudo head -n <NO_of_line> /var/log/auth.log```
+
+To check the last <NO_of_line> of logs: ```$ sudo tail -n <NO_of_line> /var/log/auth.log```
         
     
     
@@ -75,40 +44,20 @@ $ ./a.out - To execute the program
 
 Few shortcuts
 
-Gives all the commands executed over the bash/terminal
-```
-    $ history
-```
-To reverse search the particular cmd
-```    Ctrl + R ```
+Gives all the commands executed over the bash/terminal: ```$ history```
 
-    $ export PS1="<any_name> $:"
-            - To reflect "<any_name> $:"  in the cli/bash
+To reverse search the particular cmd: ```    Ctrl + R ```
 
-    $ export PS1="$PWD :"
-            - To check the Present Working Directory
-
-```
-
-
-To give the access to docker my ubuntu (EC2 instance)
-```
-$ sudo usermod -aG docker ubuntu
-```
-
-
-
-
+To reflect "<any_name> $:"  in the cli/bash: ```$ export PS1="<any_name> $:"```
+          
+To check the Present Working Directory: ```$ export PS1="$PWD :"```
+          
+To give the access to docker my ubuntu (EC2 instance): ```$ sudo usermod -aG docker ubuntu```
 
 # For Application
-
-    ~/Applications/Cursor-1.0.0-x86_64.AppImage
+Cursor AI: ```~/Applications/Cursor-1.0.0-x86_64.AppImage```
 
     
-If issues occur (e.g., not opening), check logs:
-
-```
-    $ ~/Applications/Cursor-1.0.0-x86_64.AppImage --no-sandbox
-```
+If issues occur (e.g., not opening), check logs:```$ ~/Applications/Cursor-1.0.0-x86_64.AppImage --no-sandbox```
 
 
