@@ -2,10 +2,15 @@
 
 To check the Ubuntu Version
 ```
-    $ cat /etc/*release* 
+$ cat /etc/*release* 
+```
+To check Ubuntu(System Architecture)
+```
+$ dpkg --print-architecture
 ```
 
 To disable the Firewalls
+
 ```
     $ sudo ufw disable 
 ```
