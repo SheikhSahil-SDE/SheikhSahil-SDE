@@ -56,9 +56,10 @@ To check the Present Working Directory: ```$ export PS1="$PWD :"```
 To give the access to docker my ubuntu (EC2 instance): ```$ sudo usermod -aG docker ubuntu```
 
 # For Application
+
 Cursor AI: ```~/Applications/Cursor-1.0.0-x86_64.AppImage```
 
     
-If issues occur (e.g., not opening), check logs:```$ ~/Applications/Cursor-1.0.0-x86_64.AppImage --no-sandbox```
+If issues occur (e.g., not opening), check logs: ```$ ~/Applications/Cursor-1.0.0-x86_64.AppImage --no-sandbox```
 
 
