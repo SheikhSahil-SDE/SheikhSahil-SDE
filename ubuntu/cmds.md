@@ -43,7 +43,7 @@ $ cc <program_name>.c - To compile C-program <program_name> with .c extension
 $ ./a.out - To execute the program
 ```
 
-Few shortcuts
+# Few shortcuts
 
 Gives all the commands executed over the bash/terminal: ```$ history```
 
