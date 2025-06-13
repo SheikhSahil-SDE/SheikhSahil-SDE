@@ -14,13 +14,16 @@ To enable the firewall
 ```  
     $ sudo ufw enable 
 ```
-  
-    $ sudo apt install network-manager-openvpn-gnome -y
-  
+```  
+$ sudo apt install network-manager-openvpn-gnome -y
+```
+```
     $ sudo apt update && sudo apt full-upgrade -y 
-
+```
+To check the logs of the day
+```
     $ sudo cat /var/log/auth.log
-            - To check the logs of the day
+```
     
     $ du -sh <file_name> 
             - Check the space utilization of the <file_name>
