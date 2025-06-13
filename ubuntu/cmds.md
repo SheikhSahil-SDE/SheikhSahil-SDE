@@ -1,13 +1,19 @@
 ## UBUNTU COMMANDS
 
+To check the Ubuntu Version
+```
     $ cat /etc/*release* 
-            - To check the Ubuntu Version
-  
+```
+
+To disable the Firewalls
+```
     $ sudo ufw disable 
-            - To disable the Firewalls
-  
+```
+
+To enable the firewall
+```  
     $ sudo ufw enable 
-            - To enable the firewall
+```
   
     $ sudo apt install network-manager-openvpn-gnome -y
   
