@@ -1,6 +1,6 @@
 ## UBUNTU COMMANDS
 
-To check the Ubuntu Version: ```$ cat /etc/*release* ```
+To check the Ubuntu Version: $```cat /etc/*release* ```
 
 To check Ubuntu(System Architecture):  ``` $ dpkg --print-architecture ```
 
