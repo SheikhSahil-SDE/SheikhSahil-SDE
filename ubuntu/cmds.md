@@ -45,11 +45,11 @@ To execute the program $ ```./a.out```
 
 Gives all the commands executed over the bash/terminal: ```$ history```
 
-To reverse search the particular cmd: ```    Ctrl + R ```
+To reverse search the particular cmd: ```Ctrl + R ```
 
 To reflect "<any_name> $:"  in the cli/bash: ```$ export PS1="<any_name> $:"```
           
-To check the Present Working Directory: ```$ export PS1="$PWD :"```
+To check the Present Working Directory: $```export PS1="$PWD :"```
           
 To give the access to docker my ubuntu (EC2 instance): ```$ sudo usermod -aG docker ubuntu```
 
