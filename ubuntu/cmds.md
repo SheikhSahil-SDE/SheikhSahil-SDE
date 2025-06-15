@@ -37,11 +37,11 @@ To check the last <NO_of_line> of logs: ```$ sudo tail -n <NO_of_line> /var/log/
         
     
     
-```
-$ gedit <program_name>.c To open the gedit text editor,
-$ cc <program_name>.c - To compile C-program <program_name> with .c extension
-$ ./a.out - To execute the program
-```
+
+$ ```gedit <program_name>.c To open the gedit text editor,```
+$ ```cc <program_name>.c - To compile C-program <program_name> with .c extension```
+$ ```./a.out - To execute the program```
+
 
 # Few shortcuts
 
