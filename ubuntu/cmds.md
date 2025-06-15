@@ -33,17 +33,13 @@ To check the <PORT> is used by which process
 
 To check the first <NO_of_line> of logs: ```$ sudo head -n <NO_of_line> /var/log/auth.log```
 
-To check the last <NO_of_line> of logs: ```$ sudo tail -n <NO_of_line> /var/log/auth.log```
-        
-    
-    
+To check the last <NO_of_line> of logs: ```$ sudo tail -n <NO_of_line> /var/log/auth.log```         
 
-$ ```gedit <program_name>.c To open the gedit text editor,```
+To open the gedit text editor $ ```gedit <program_name>.c```
 
-$ ```cc <program_name>.c - To compile C-program <program_name> with .c extension```
+To compile C-program <program_name> with .c extension $ ```cc <program_name>.c```
 
-$ ```./a.out - To execute the program```
-
+To execute the program $ ```./a.out```
 
 # Few shortcuts
 
