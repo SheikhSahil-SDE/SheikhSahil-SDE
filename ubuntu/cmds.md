@@ -8,9 +8,13 @@ To disable the Firewalls: ``` $ sudo ufw disable  ```
 
 To enable the firewall: ``` $ sudo ufw enable ```
 
-``` $ sudo apt install network-manager-openvpn-gnome -y ```
+```
+ $ sudo apt install network-manager-openvpn-gnome -y
+```
 
-``` $ sudo apt update && sudo apt full-upgrade -y  ```
+``` 
+$ sudo apt update && sudo apt full-upgrade -y
+```
 
 To check the logs of the day:``` $ sudo cat /var/log/auth.log ```
 
