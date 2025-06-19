@@ -84,8 +84,9 @@
 💼 Offering **DevOps Services**  
 📧 Let’s chat: [sheikhsahil_1@proton.me](mailto:sheikhsahil_1@proton.me)
 
+<!--
 > *"Helping people crack DevOps with real-world knowledge. Let’s build and automate the future, one pipeline at a time!"*
-
+-->
 
 
 <!---
