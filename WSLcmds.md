@@ -20,3 +20,12 @@
   <br>- Shutdown: ```sudo poweroff```
   <br>- View logs: ```journalctl -xe```
   <br>- Update mirrorlist: ```sudo pacman -Syy```
+  <br>-
+  <br>-
+  <br>-
+  <br>-
+  <br>-
+  <br>-
+  
+  
+  
