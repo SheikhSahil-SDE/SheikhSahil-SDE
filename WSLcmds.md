@@ -23,13 +23,15 @@
 
   **Uninstallation of Linux-Distro**
   <br>-Open PowerShell as Administrator.
-  <br>-Run: ```wsl --list``` to view installed distros.
+  <br>-Run: ```wsl --list``` or ```wsl -l``` to view installed distros.
   <br>-Run: ```wsl --unregister <DistroName>``` (replace <DistroName> with the distro, e.g., Ubuntu, archlinux).
   <br>-Open Settings > Apps > Installed Apps.
   <br>-Search for the distro, click it, select Uninstall.
   <br>-Restart computer.
   
   <br>-
-  
-  
-  
+  <br>-
+  <br>- 
+  <br>-
+  <br>-
+  <br>-
