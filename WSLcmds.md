@@ -20,11 +20,15 @@
   <br>- Shutdown: ```sudo poweroff```
   <br>- View logs: ```journalctl -xe```
   <br>- Update mirrorlist: ```sudo pacman -Syy```
-  <br>-
-  <br>-
-  <br>-
-  <br>-
-  <br>-
+
+  **Uninstallation of Linux-Distro**
+  <br>-Open PowerShell as Administrator.
+  <br>-Run: ```wsl --list``` to view installed distros.
+  <br>-Run: ```wsl --unregister <DistroName>``` (replace <DistroName> with the distro, e.g., Ubuntu, archlinux).
+  <br>-Open Settings > Apps > Installed Apps.
+  <br>-Search for the distro, click it, select Uninstall.
+  <br>-Restart computer.
+  
   <br>-
   
   
