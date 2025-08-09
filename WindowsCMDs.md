@@ -1,7 +1,7 @@
 
-<br>-**To check the system architecture in Windows 11 via Command Prompt, run:**<br>```$ wmic os get osarchitecture```
-<br>-**Alternatively, use:**<br>```$ echo %PROCESSOR_ARCHITECTURE%```
-<br>-**To check the applications installed in the system, run Win + R **<br>```shell:AppsFolder```
+<br>-**To check the system architecture in Windows 11 via Command Prompt, run:** ```$ wmic os get osarchitecture```
+<br>-**Alternatively, use:** ```$ echo %PROCESSOR_ARCHITECTURE%```
+<br>-**To check the applications installed in the system, run Win + R**: ```shell:AppsFolder```
 
 **sfc /scannow**
 <br>-Function: ```Scans and repairs corrupted or missing Windows system files.```
