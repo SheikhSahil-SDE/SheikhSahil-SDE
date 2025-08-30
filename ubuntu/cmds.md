@@ -80,7 +80,6 @@
 
 # File Permission
 
-
 - `````` -
 - `````` - 
 - `````` - 
@@ -88,10 +87,20 @@
 
 # Compression
 
-- `````` - 
-- `````` -
-- `````` - 
-- `````` - 
+- ```tar cf file.tar``` - tar files into file.tar
+- ```tar xf file.tar``` - untar into current directory
+- ```tar tf file.tar``` - show contents of archive
+
+            tar flags:
+            c - create archive      j - compression
+            t - table of content    k - do not overwrite
+            x - extract             T - files from file
+            f - specifies filename  W - ask for confirmation
+            z - use zip/gzip        v - verbose
+
+
+- ```gzip file``` - compress file and rename to file.gz
+- ```gzip -d file.gz``` - decompress file.gz
 
 # Few shortcuts
 - Gives all the commands executed over the bash/terminal: ```$ history```
