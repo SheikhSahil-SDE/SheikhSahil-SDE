@@ -91,7 +91,8 @@
 - ```tar xf file.tar``` - untar into current directory
 - ```tar tf file.tar``` - show contents of archive
 
-            tar flags:
+tar flags:
+
             c - create archive      j - compression
             t - table of content    k - do not overwrite
             x - extract             T - files from file
