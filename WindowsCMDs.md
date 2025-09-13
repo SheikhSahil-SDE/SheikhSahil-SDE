@@ -17,7 +17,7 @@
 # Yt-dlp
 
 - **yt-dlp is a feature-rich, command-line audio/video downloader that supports thousands of websites, including YouTube and Vimeo**
-- **Usage:** ``` yt-dlp [OPTIONS] URL [URL...]```
+- **Usage:** $ ```yt-dlp [OPTIONS] URL [URL...]```
 - **For example, users can download audio only with** ```--extract-audio --audio-format mp3.```
 - **It also supports downloading playlists with options like** ```--ignore-errors --continue --no-overwrites``` **to resume interrupted downloads.**
 
