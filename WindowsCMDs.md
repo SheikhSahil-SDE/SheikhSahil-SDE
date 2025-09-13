@@ -3,7 +3,7 @@
 
 - **To check the system architecture in Windows 11 via Command Prompt, run:** ```$ wmic os get osarchitecture```
 
-- **Alternatively, use:** ```$ echo %PROCESSOR_ARCHITECTURE%```
+- **Alternatively, use:** $ ```echo %PROCESSOR_ARCHITECTURE%```
 
 - **To check the applications installed in the system, run Win + R**: ```shell:AppsFolder```
 
