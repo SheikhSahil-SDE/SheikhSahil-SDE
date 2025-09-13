@@ -1,7 +1,7 @@
 
 # Terminal CMDs
 
-- **To check the system architecture in Windows 11 via Command Prompt, run:** $ ``` wmic os get osarchitecture```
+- **To check the system architecture in Windows 11 via Command Prompt, run:** $ ```wmic os get osarchitecture```
 
 - **Alternatively, use:** $ ```echo %PROCESSOR_ARCHITECTURE%```
 
