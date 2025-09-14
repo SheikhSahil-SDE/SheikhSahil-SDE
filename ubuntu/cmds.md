@@ -1,5 +1,17 @@
 ## UBUNTU COMMANDS
 
+# Syatem Information Commands
+- Diaplay all system info ```uname -a ```
+- Shows current hostname & details ```hostnamectl```
+- Lists CPU architecture info ```Iscpu```
+- Show system time ```timedatectl status```
+
+# System Monitoring & Management
+- Display real-time system processes ```top```
+- An interacive process viewer ```htop```
+- https://in.pinterest.com/pin/9570217952553735/
+
+
 - To check the Ubuntu Version: $```cat /etc/*release* ```
 - To check Ubuntu(System Architecture):  ``` $ dpkg --print-architecture ```
 - To disable the Firewalls: ``` $ sudo ufw disable  ```
@@ -119,8 +131,6 @@ tar flags:
   
 # For Application
 - Cursor AI: ```~/Applications/Cursor-1.0.0-x86_64.AppImage```
-
-    
-If issues occur (e.g., not opening), check logs: ```$ ~/Applications/Cursor-1.0.0-x86_64.AppImage --no-sandbox```
+- If issues occur (e.g., not opening), check logs: ```$ ~/Applications/Cursor-1.0.0-x86_64.AppImage --no-sandbox```
 
 
