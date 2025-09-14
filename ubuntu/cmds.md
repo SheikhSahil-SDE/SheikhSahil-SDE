@@ -9,7 +9,8 @@
 # System Monitoring & Management
 - Display real-time system processes ```top```
 - An interacive process viewer ```htop```
-- https://in.pinterest.com/pin/9570217952553735/
+
+<https://in.pinterest.com/pin/9570217952553735/>
 
 
 - To check the Ubuntu Version: $```cat /etc/*release* ```
