@@ -1,22 +1,22 @@
 ## UBUNTU COMMANDS
 
 # Syatem Information Commands
-- Diaplay all system info: ```uname -a ```
-- Shows current hostname & details: ```hostnamectl```
-- Lists CPU architecture info: ```Iscpu```
-- Show system time: ```timedatectl status```
+- Diaplay all system info: $```uname -a ```
+- Shows current hostname & details: $```hostnamectl```
+- Lists CPU architecture info: $```Iscpu```
+- Show system time: $```timedatectl status```
 
 # System Monitoring & Management
-- Display real-time system processes: ```top```
-- An interacive process viewer: ```htop```
-- Shows disk usage in human-readable formate: ```df -h```
-- Displays free and used memory in MB: ```free -m```
-- Terminates a process: ```kill <Process_ID>``` 
+- Display real-time system processes: $```top```
+- An interacive process viewer: $```htop```
+- Shows disk usage in human-readable formate: $```df -h```
+- Displays free and used memory in MB: $```free -m```
+- Terminates a process: $```kill <Process_ID>``` 
 
 # Directory navigation
-- Displays the current directory path: ```pwd```
-- Changes the current directory: ```cd <directory>```
-- Creates a new directory: ```mkdir <dir_name>```
+- Displays the current directory path: $```pwd```
+- Changes the current directory: $```cd <directory>```
+- Creates a new directory: $```mkdir <dir_name>```
 
 <https://in.pinterest.com/pin/9570217952553735/>
 
