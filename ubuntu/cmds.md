@@ -66,21 +66,21 @@
 - ```wget -r url``` - recursively download files from url
 
 # System Info 
-- ```date``` - show current date/time
-- ```cal``` - show this month's calender
-- ```uptime```- show uptime
-- ```w```- display who is online
-- ```whoami```- who are you logged in as
-- ```uname -a```- show kernel config
-- ```cat /proc/cpuinfo```- cpu info
-- ```cat /proc/meminfo``` - memory info
-- ```man command``` - show manual for command
-- ```df```- show disk usage
-- ```du```- show directory space usage 
-- ```du -sh```- Human readable size in GB
-- ```free```- show memory and swap usage
-- ```whereis app```- show possible locations of app
-- ```which app```- show which app will be run by default
+- Shows current date/time - ```date```
+- Show this month's calender - ```cal```
+- Show uptime - ```uptime```
+- Display who is online - ```w```
+- Who are you logged in as - ```whoami```
+- Show kernel config - ```uname -a```
+- cpu info - ```cat /proc/cpuinfo```
+- Memory info - ```cat /proc/meminfo```
+- Show manual for command - ```man command```
+- Show disk usage - ```df```
+- Show directory space usage - ```du```
+- Human readable size in GB - ```du -sh```
+- Show memory and swap usage - ```free```
+- Show possible locations of app - ```whereis app```
+- Show which app will be run by default - ```which app```
 
 # Searching
 
