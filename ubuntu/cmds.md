@@ -1,6 +1,6 @@
 ## UBUNTU COMMANDS
 
-# Syatem Information Commands
+# System Information Commands
 - Diaplay all system info: $```uname -a ```
 - Shows current hostname & details: $```hostnamectl```
 - Lists CPU architecture info: $```Iscpu```
