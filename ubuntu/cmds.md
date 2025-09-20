@@ -45,9 +45,9 @@
 
 # SSH
 
-- ```ssh user@host``` - connect to host as user
-- ```ssh -p post user@host``` - connect using post p
-- ```ssh -D post user@host``` - connect and use bind port
+- Connect to host as user - ```ssh user@host```
+- Connect using post p - ```ssh -p post user@host```
+- Connect and use bind port - ```ssh -D post user@host```
 
 # Installation
 
