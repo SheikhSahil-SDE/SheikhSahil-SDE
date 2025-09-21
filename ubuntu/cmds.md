@@ -25,6 +25,8 @@
 - Shows the first few lines of a file: $```head [file_name]```
 - Shows the last few lines of a file: $```tail [file_name]```
 - Prints every line in a file: $```awk {print} [file_name]```
+  
+
 <https://in.pinterest.com/pin/9570217952553735/>
 
 
