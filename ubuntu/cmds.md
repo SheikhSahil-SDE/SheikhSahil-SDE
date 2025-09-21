@@ -18,6 +18,13 @@
 - Changes the current directory: $```cd <directory>```
 - Creates a new directory: $```mkdir <dir_name>```
 
+# Text editing & processing
+- Opens a file in the Nano Text Editor: $```nano [file_name]```
+- Displays the contents of a file: $```cat [file_name]```
+- Displays the paginated content of a file: $```less [file_name]```
+- Shows the first few lines of a file: $```head [file_name]```
+- Shows the last few lines of a file: $```tail [file_name]```
+- Prints every line in a file: $```awk {print} [file_name]```
 <https://in.pinterest.com/pin/9570217952553735/>
 
 
