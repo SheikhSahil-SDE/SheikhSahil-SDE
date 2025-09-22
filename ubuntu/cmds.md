@@ -25,7 +25,24 @@
 - Shows the first few lines of a file: $```head [file_name]```
 - Shows the last few lines of a file: $```tail [file_name]```
 - Prints every line in a file: $```awk {print} [file_name]```
-  
+
+
+# Service management
+- To open a file in the Nano Text editor: $```sudo systemctl start <service>```
+- : $```sudo systemctl stop <service>```
+- : $```sudo systemctl status <service>```
+- : $```sudo systemctl reload <service>```
+- : $```journalctl -f```
+- : $```journalctl -u <unit_name>```
+
+#Firewall Management
+- Displays the Firewall status: $```sudo ufw status```
+- To enable the firewall: $```sudo ufw enable```
+- To disable the firewall: $```sudo ufw disable```
+- To allow traffic on a specific port or service: $```sudo ufw allow <port/service>```
+- To deny traffic on a specific port or service: $```sudo ufw deny <port/service>```
+- To delete an existing rule: $```sudo ufw delete```
+
 
 <https://in.pinterest.com/pin/9570217952553735/>
 
