@@ -2,6 +2,8 @@
 # Terminal CMDs
 
 - **To check the system architecture in Windows 11 via Command Prompt, run:** $ ```wmic os get osarchitecture```
+- **To check the SystemType in Windows 11 via Command Prompt, run:** $ ```wmic computersystem get systemtype```
+- **To displays detailed configuration information about a computer’s hardware** $ ```systeminfo```
 
 - **Alternatively, use:** $ ```echo %PROCESSOR_ARCHITECTURE%```
 
